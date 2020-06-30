@@ -1,5 +1,5 @@
 {
-  "appId": "com.jpruim.DndCharacters",
+  "appId": "io.ionic.starter",
   "appName": "DndCharacters",
   "bundledWebRuntime": false,
   "npmClient": "npm",
