@@ -1,0 +1,7 @@
+{
+  "name": "DndCharacters",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
