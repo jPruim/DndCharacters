@@ -50,20 +50,33 @@ export class AppComponent implements OnInit {
     private splashScreen: SplashScreen,
     private statusBar: StatusBar
   ) {
+    // Use matchMedia to check the user preference
+    // const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+
+    // toggleDarkTheme(prefersDark.matches);
+
+    // // Listen for changes to the prefers-color-scheme media query
+    // prefersDark.addListener((mediaQuery) => toggleDarkTheme(mediaQuery.matches));
+
+    // Add or remove the "dark" class based on if the media query matches
+    
     this.initializeApp();
   }
 
   initializeApp() {
+
     this.platform.ready().then(() => {
       this.statusBar.styleDefault();
       this.splashScreen.hide();
     });
   }
-
   ngOnInit() {
     const path = window.location.pathname.split('folder/')[1];
     if (path !== undefined) {
       this.selectedIndex = this.appPages.findIndex(page => page.title.toLowerCase() === path.toLowerCase());
     }
+  }
+  toggleDarkTheme(event) {
+    document.body.classList.toggle('dark');
   }
 }
