@@ -1,0 +1,43 @@
+ion-menu-button {
+    color: var(--ion-color-primary);
+  }
+  
+  #container {
+    text-align: left;
+    position: relative;
+    padding: 12px;
+    // transform: translateY(-50%);
+  }
+  
+  #container strong {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  
+  #container app-importText {
+
+    font-size: 16px;
+    line-height: 22px;
+    color: #8c8c8c;
+    padding-right: 50px;
+  }
+  #container app-importText::after{content:'\A';white-space: pre-wrap;}
+  
+  #container a {
+    text-decoration: none;
+  }
+  #container app-headerText{
+
+    font-size:16px;
+    font-weight:bold;
+    margin-right: 5px;
+  }
+  #customFooter{
+      text-align: center;
+      width:100%;
+      position: fixed;
+      bottom:20px;
+  }
+  #inlined{
+      display:inline-block
+  }

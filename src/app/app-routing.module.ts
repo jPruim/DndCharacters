@@ -8,8 +8,16 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
+    path: 'folder/Spells',
+    loadChildren: () => import('./spells/spells.module').then( m => m.SpellsPageModule)
+  },
+  {
     path: 'folder/:id',
     loadChildren: () => import('./folder/folder.module').then( m => m.FolderPageModule)
+  },
+  {
+    path: 'folder/Spells/spell-display/:id',
+    loadChildren: () => import('./spell-display/spell-display.module').then( m => m.SpellDisplayPageModule)
   }
 ];
 

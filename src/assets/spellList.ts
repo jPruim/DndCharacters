@@ -1,7 +1,7 @@
-export const SPELLLIST =
-[
+export const SPELLLIST = [
     {
         "name": "Acid Splash",
+        "id": 1,
         "level": 0,
         "school": "Conj",
         "castingTime": "Act",
@@ -26,6 +26,7 @@ export const SPELLLIST =
     },
     {
         "name": "Blade Ward",
+        "id": 2,
         "level": 0,
         "school": "Abjur",
         "castingTime": "Act",
@@ -49,6 +50,7 @@ export const SPELLLIST =
     },
     {
         "name": "Booming Blade",
+        "id": 3,
         "level": 0,
         "school": "Evoc",
         "castingTime": "Act",
@@ -72,6 +74,7 @@ export const SPELLLIST =
     },
     {
         "name": "Chill Touch",
+        "id": 4,
         "level": 0,
         "school": "Necro",
         "castingTime": "Act",
@@ -96,6 +99,7 @@ export const SPELLLIST =
     },
     {
         "name": "Control Flames",
+        "id": 5,
         "level": 0,
         "school": "Trans",
         "castingTime": "Act",
@@ -119,6 +123,7 @@ export const SPELLLIST =
     },
     {
         "name": "Create Bonfire",
+        "id": 6,
         "level": 0,
         "school": "Conj",
         "castingTime": "Act",
@@ -144,6 +149,7 @@ export const SPELLLIST =
     },
     {
         "name": "Dancing Lights",
+        "id": 7,
         "level": 0,
         "school": "Evoc",
         "castingTime": "Act",
@@ -168,6 +174,7 @@ export const SPELLLIST =
     },
     {
         "name": "Druidcraft",
+        "id": 8,
         "level": 0,
         "school": "Trans",
         "castingTime": "Act",
@@ -191,6 +198,7 @@ export const SPELLLIST =
     },
     {
         "name": "Eldritch Blast",
+        "id": 9,
         "level": 0,
         "school": "Evoc",
         "castingTime": "Act",
@@ -215,6 +223,7 @@ export const SPELLLIST =
     },
     {
         "name": "Fire Bolt",
+        "id": 10,
         "level": 0,
         "school": "Evoc",
         "castingTime": "Act",
@@ -239,6 +248,7 @@ export const SPELLLIST =
     },
     {
         "name": "Friends",
+        "id": 11,
         "level": 0,
         "school": "Ench",
         "castingTime": "Act",
@@ -263,6 +273,7 @@ export const SPELLLIST =
     },
     {
         "name": "Frostbite",
+        "id": 12,
         "level": 0,
         "school": "Evoc",
         "castingTime": "Act",
@@ -287,6 +298,7 @@ export const SPELLLIST =
     },
     {
         "name": "Green Flame Blade",
+        "id": 13,
         "level": 0,
         "school": "Evoc",
         "castingTime": "Act",
@@ -310,6 +322,7 @@ export const SPELLLIST =
     },
     {
         "name": "Guidance",
+        "id": 14,
         "level": 0,
         "school": "Divin",
         "castingTime": "Act",
@@ -334,6 +347,7 @@ export const SPELLLIST =
     },
     {
         "name": "Gust",
+        "id": 15,
         "level": 0,
         "school": "Trans",
         "castingTime": "Act",
@@ -358,6 +372,7 @@ export const SPELLLIST =
     },
     {
         "name": "Infestation",
+        "id": 16,
         "level": 0,
         "school": "Conj",
         "castingTime": "Act",
@@ -382,6 +397,7 @@ export const SPELLLIST =
     },
     {
         "name": "Light",
+        "id": 17,
         "level": 0,
         "school": "Evoc",
         "castingTime": "Act",
@@ -406,6 +422,7 @@ export const SPELLLIST =
     },
     {
         "name": "Lightning Lure",
+        "id": 18,
         "level": 0,
         "school": "Evoc",
         "castingTime": "Act",
@@ -430,6 +447,7 @@ export const SPELLLIST =
     },
     {
         "name": "Mage Hand",
+        "id": 19,
         "level": 0,
         "school": "Conj",
         "castingTime": "Act",
@@ -453,6 +471,7 @@ export const SPELLLIST =
     },
     {
         "name": "Magic Stone",
+        "id": 20,
         "level": 0,
         "school": "Trans",
         "castingTime": "Bonus",
@@ -477,6 +496,7 @@ export const SPELLLIST =
     },
     {
         "name": "Mending",
+        "id": 21,
         "level": 0,
         "school": "Trans",
         "castingTime": "1 Min",
@@ -500,6 +520,7 @@ export const SPELLLIST =
     },
     {
         "name": "Message",
+        "id": 22,
         "level": 0,
         "school": "Trans",
         "castingTime": "Act",
@@ -523,6 +544,7 @@ export const SPELLLIST =
     },
     {
         "name": "Minor Illusion",
+        "id": 23,
         "level": 0,
         "school": "Illus",
         "castingTime": "Act",
@@ -546,6 +568,7 @@ export const SPELLLIST =
     },
     {
         "name": "Mold Earth",
+        "id": 24,
         "level": 0,
         "school": "Trans",
         "castingTime": "Act",
@@ -569,6 +592,7 @@ export const SPELLLIST =
     },
     {
         "name": "Poison Spray",
+        "id": 25,
         "level": 0,
         "school": "Conj",
         "castingTime": "Act",
@@ -593,6 +617,7 @@ export const SPELLLIST =
     },
     {
         "name": "Prestidigitation",
+        "id": 26,
         "level": 0,
         "school": "Trans",
         "castingTime": "Act",
@@ -616,6 +641,7 @@ export const SPELLLIST =
     },
     {
         "name": "Primal Savagery",
+        "id": 27,
         "level": 0,
         "school": "Trans",
         "castingTime": "Act",
@@ -639,6 +665,7 @@ export const SPELLLIST =
     },
     {
         "name": "Produce Flame",
+        "id": 28,
         "level": 0,
         "school": "Conj",
         "castingTime": "Act",
@@ -663,6 +690,7 @@ export const SPELLLIST =
     },
     {
         "name": "Ray Of Frost",
+        "id": 29,
         "level": 0,
         "school": "Evoc",
         "castingTime": "Act",
@@ -687,6 +715,7 @@ export const SPELLLIST =
     },
     {
         "name": "Resistance",
+        "id": 30,
         "level": 0,
         "school": "Abjur",
         "castingTime": "Act",
@@ -711,6 +740,7 @@ export const SPELLLIST =
     },
     {
         "name": "Sacred Flame",
+        "id": 31,
         "level": 0,
         "school": "Evoc",
         "castingTime": "Act",
@@ -735,6 +765,7 @@ export const SPELLLIST =
     },
     {
         "name": "Shape Water",
+        "id": 32,
         "level": 0,
         "school": "Trans",
         "castingTime": "Act",
@@ -758,6 +789,7 @@ export const SPELLLIST =
     },
     {
         "name": "Shillelagh",
+        "id": 33,
         "level": 0,
         "school": "Trans",
         "castingTime": "Bonus",
@@ -781,6 +813,7 @@ export const SPELLLIST =
     },
     {
         "name": "Shocking Grasp",
+        "id": 34,
         "level": 0,
         "school": "Evoc",
         "castingTime": "Act",
@@ -805,6 +838,7 @@ export const SPELLLIST =
     },
     {
         "name": "Spare The Dying",
+        "id": 35,
         "level": 0,
         "school": "Necro",
         "castingTime": "Act",
@@ -828,6 +862,7 @@ export const SPELLLIST =
     },
     {
         "name": "Sword Burst",
+        "id": 36,
         "level": 0,
         "school": "Conj",
         "castingTime": "Act",
@@ -852,6 +887,7 @@ export const SPELLLIST =
     },
     {
         "name": "Thaumaturgy",
+        "id": 37,
         "level": 0,
         "school": "Trans",
         "castingTime": "Act",
@@ -875,6 +911,7 @@ export const SPELLLIST =
     },
     {
         "name": "Thorn Whip",
+        "id": 38,
         "level": 0,
         "school": "Trans",
         "castingTime": "Act",
@@ -899,6 +936,7 @@ export const SPELLLIST =
     },
     {
         "name": "Thunderclap",
+        "id": 39,
         "level": 0,
         "school": "Evoc",
         "castingTime": "Act",
@@ -923,6 +961,7 @@ export const SPELLLIST =
     },
     {
         "name": "Toll the Dead",
+        "id": 40,
         "level": 0,
         "school": "Necro",
         "castingTime": "Act",
@@ -947,6 +986,7 @@ export const SPELLLIST =
     },
     {
         "name": "True Strike",
+        "id": 41,
         "level": 0,
         "school": "Divin",
         "castingTime": "Act",
@@ -971,6 +1011,7 @@ export const SPELLLIST =
     },
     {
         "name": "Vicious Mockery",
+        "id": 42,
         "level": 0,
         "school": "Ench",
         "castingTime": "Act",
@@ -995,6 +1036,7 @@ export const SPELLLIST =
     },
     {
         "name": "Word of Radiance",
+        "id": 43,
         "level": 0,
         "school": "Evoc",
         "castingTime": "Act",
@@ -1019,6 +1061,7 @@ export const SPELLLIST =
     },
     {
         "name": "Absorb Elements",
+        "id": 44,
         "level": 1,
         "school": "Abjur",
         "castingTime": "React",
@@ -1042,6 +1085,7 @@ export const SPELLLIST =
     },
     {
         "name": "Alarm",
+        "id": 45,
         "level": 1,
         "school": "Abjur",
         "castingTime": "1 Min",
@@ -1066,6 +1110,7 @@ export const SPELLLIST =
     },
     {
         "name": "Animal Friendship",
+        "id": 46,
         "level": 1,
         "school": "Ench",
         "castingTime": "Act",
@@ -1089,6 +1134,7 @@ export const SPELLLIST =
     },
     {
         "name": "Armor of Agathys",
+        "id": 47,
         "level": 1,
         "school": "Abjur",
         "castingTime": "Act",
@@ -1111,6 +1157,7 @@ export const SPELLLIST =
     },
     {
         "name": "Arms of Hadar",
+        "id": 48,
         "level": 1,
         "school": "Conj",
         "castingTime": "Act",
@@ -1135,6 +1182,7 @@ export const SPELLLIST =
     },
     {
         "name": "Bane",
+        "id": 49,
         "level": 1,
         "school": "Ench",
         "castingTime": "Act",
@@ -1160,6 +1208,7 @@ export const SPELLLIST =
     },
     {
         "name": "Beast Bond",
+        "id": 50,
         "level": 1,
         "school": "Divin",
         "castingTime": "Act",
@@ -1184,6 +1233,7 @@ export const SPELLLIST =
     },
     {
         "name": "Bless",
+        "id": 51,
         "level": 1,
         "school": "Ench",
         "castingTime": "Act",
@@ -1208,6 +1258,7 @@ export const SPELLLIST =
     },
     {
         "name": "Burning Hands",
+        "id": 52,
         "level": 1,
         "school": "Evoc",
         "castingTime": "Act",
@@ -1232,6 +1283,7 @@ export const SPELLLIST =
     },
     {
         "name": "Catapult",
+        "id": 53,
         "level": 1,
         "school": "Trans",
         "castingTime": "Act",
@@ -1256,6 +1308,7 @@ export const SPELLLIST =
     },
     {
         "name": "Cause Fear",
+        "id": 54,
         "level": 1,
         "school": "Necro",
         "castingTime": "Act",
@@ -1281,6 +1334,7 @@ export const SPELLLIST =
     },
     {
         "name": "Ceremony",
+        "id": 55,
         "level": 1,
         "school": "Abjur",
         "castingTime": "1 Hr",
@@ -1306,6 +1360,7 @@ export const SPELLLIST =
     },
     {
         "name": "Chaos Bolt",
+        "id": 56,
         "level": 1,
         "school": "Evoc",
         "castingTime": "Act",
@@ -1329,6 +1384,7 @@ export const SPELLLIST =
     },
     {
         "name": "Charm Person",
+        "id": 57,
         "level": 1,
         "school": "Ench",
         "castingTime": "Act",
@@ -1353,6 +1409,7 @@ export const SPELLLIST =
     },
     {
         "name": "Chromatic Orb",
+        "id": 58,
         "level": 1,
         "school": "Evoc",
         "castingTime": "Act",
@@ -1378,6 +1435,7 @@ export const SPELLLIST =
     },
     {
         "name": "Color Spray",
+        "id": 59,
         "level": 1,
         "school": "Illus",
         "castingTime": "Act",
@@ -1401,6 +1459,7 @@ export const SPELLLIST =
     },
     {
         "name": "Command",
+        "id": 60,
         "level": 1,
         "school": "Ench",
         "castingTime": "Act",
@@ -1425,6 +1484,7 @@ export const SPELLLIST =
     },
     {
         "name": "Compelled Duel",
+        "id": 61,
         "level": 1,
         "school": "Ench",
         "castingTime": "Bonus",
@@ -1450,6 +1510,7 @@ export const SPELLLIST =
     },
     {
         "name": "Comprehend Languages",
+        "id": 62,
         "level": 1,
         "school": "Divin",
         "castingTime": "Act",
@@ -1474,6 +1535,7 @@ export const SPELLLIST =
     },
     {
         "name": "Create or Destroy Water",
+        "id": 63,
         "level": 1,
         "school": "Trans",
         "castingTime": "Act",
@@ -1497,6 +1559,7 @@ export const SPELLLIST =
     },
     {
         "name": "Cure Wounds",
+        "id": 64,
         "level": 1,
         "school": "Evoc",
         "castingTime": "Act",
@@ -1520,6 +1583,7 @@ export const SPELLLIST =
     },
     {
         "name": "Detect Evil/Good",
+        "id": 65,
         "level": 1,
         "school": "Divin",
         "castingTime": "Act",
@@ -1544,6 +1608,7 @@ export const SPELLLIST =
     },
     {
         "name": "Detect Magic",
+        "id": 66,
         "level": 1,
         "school": "Divin",
         "castingTime": "Act",
@@ -1569,6 +1634,7 @@ export const SPELLLIST =
     },
     {
         "name": "Detect Poison and Disease",
+        "id": 67,
         "level": 1,
         "school": "Divin",
         "castingTime": "Act",
@@ -1594,6 +1660,7 @@ export const SPELLLIST =
     },
     {
         "name": "Disguise Self",
+        "id": 68,
         "level": 1,
         "school": "Illus",
         "castingTime": "Act",
@@ -1616,6 +1683,7 @@ export const SPELLLIST =
     },
     {
         "name": "Dissonant Whispers",
+        "id": 69,
         "level": 1,
         "school": "Ench",
         "castingTime": "Act",
@@ -1640,6 +1708,7 @@ export const SPELLLIST =
     },
     {
         "name": "Divine Favor",
+        "id": 70,
         "level": 1,
         "school": "Evoc",
         "castingTime": "Bonus",
@@ -1663,6 +1732,7 @@ export const SPELLLIST =
     },
     {
         "name": "Earth Tremor",
+        "id": 71,
         "level": 1,
         "school": "Evoc",
         "castingTime": "Act",
@@ -1687,6 +1757,7 @@ export const SPELLLIST =
     },
     {
         "name": "Ensnaring Strike",
+        "id": 72,
         "level": 1,
         "school": "Conj",
         "castingTime": "Bonus",
@@ -1712,6 +1783,7 @@ export const SPELLLIST =
     },
     {
         "name": "Entangle",
+        "id": 73,
         "level": 1,
         "school": "Conj",
         "castingTime": "Act",
@@ -1737,6 +1809,7 @@ export const SPELLLIST =
     },
     {
         "name": "Expeditious Retreat",
+        "id": 74,
         "level": 1,
         "school": "Trans",
         "castingTime": "Bonus",
@@ -1761,6 +1834,7 @@ export const SPELLLIST =
     },
     {
         "name": "Faerie Fire",
+        "id": 75,
         "level": 1,
         "school": "Evoc",
         "castingTime": "Act",
@@ -1786,6 +1860,7 @@ export const SPELLLIST =
     },
     {
         "name": "False Life",
+        "id": 76,
         "level": 1,
         "school": "Necro",
         "castingTime": "Act",
@@ -1809,6 +1884,7 @@ export const SPELLLIST =
     },
     {
         "name": "Feather Fall",
+        "id": 77,
         "level": 1,
         "school": "Trans",
         "castingTime": "React",
@@ -1832,6 +1908,7 @@ export const SPELLLIST =
     },
     {
         "name": "Find Familiar",
+        "id": 78,
         "level": 1,
         "school": "Conj",
         "castingTime": "1 Hr",
@@ -1856,6 +1933,7 @@ export const SPELLLIST =
     },
     {
         "name": "Fog Cloud",
+        "id": 79,
         "level": 1,
         "school": "Conj",
         "castingTime": "Act",
@@ -1880,6 +1958,7 @@ export const SPELLLIST =
     },
     {
         "name": "Goodberry",
+        "id": 80,
         "level": 1,
         "school": "Trans",
         "castingTime": "Act",
@@ -1902,6 +1981,7 @@ export const SPELLLIST =
     },
     {
         "name": "Grease",
+        "id": 81,
         "level": 1,
         "school": "Conj",
         "castingTime": "Act",
@@ -1926,6 +2006,7 @@ export const SPELLLIST =
     },
     {
         "name": "Guiding Bolt",
+        "id": 82,
         "level": 1,
         "school": "Evoc",
         "castingTime": "Act",
@@ -1950,6 +2031,7 @@ export const SPELLLIST =
     },
     {
         "name": "Hail of Thorns",
+        "id": 83,
         "level": 1,
         "school": "Conj",
         "castingTime": "Bonus",
@@ -1975,6 +2057,7 @@ export const SPELLLIST =
     },
     {
         "name": "Healing Word",
+        "id": 84,
         "level": 1,
         "school": "Evoc",
         "castingTime": "Bonus",
@@ -1998,6 +2081,7 @@ export const SPELLLIST =
     },
     {
         "name": "Hellish Rebuke",
+        "id": 85,
         "level": 1,
         "school": "Evoc",
         "castingTime": "React",
@@ -2022,6 +2106,7 @@ export const SPELLLIST =
     },
     {
         "name": "Heroism",
+        "id": 86,
         "level": 1,
         "school": "Ench",
         "castingTime": "Act",
@@ -2046,6 +2131,7 @@ export const SPELLLIST =
     },
     {
         "name": "Hex",
+        "id": 87,
         "level": 1,
         "school": "Ench",
         "castingTime": "Bonus",
@@ -2070,6 +2156,7 @@ export const SPELLLIST =
     },
     {
         "name": "Hunter's Mark",
+        "id": 88,
         "level": 1,
         "school": "Divin",
         "castingTime": "Bonus",
@@ -2094,6 +2181,7 @@ export const SPELLLIST =
     },
     {
         "name": "Ice Knife",
+        "id": 89,
         "level": 1,
         "school": "Conj",
         "castingTime": "Act",
@@ -2118,6 +2206,7 @@ export const SPELLLIST =
     },
     {
         "name": "Identify",
+        "id": 90,
         "level": 1,
         "school": "Divin",
         "castingTime": "1 Min",
@@ -2143,6 +2232,7 @@ export const SPELLLIST =
     },
     {
         "name": "Illusory Script",
+        "id": 91,
         "level": 1,
         "school": "Illus",
         "castingTime": "1 min",
@@ -2168,6 +2258,7 @@ export const SPELLLIST =
     },
     {
         "name": "Inflict Wounds",
+        "id": 92,
         "level": 1,
         "school": "Necro",
         "castingTime": "Act",
@@ -2192,6 +2283,7 @@ export const SPELLLIST =
     },
     {
         "name": "Jump",
+        "id": 93,
         "level": 1,
         "school": "Trans",
         "castingTime": "Act",
@@ -2215,6 +2307,7 @@ export const SPELLLIST =
     },
     {
         "name": "Longstrider",
+        "id": 94,
         "level": 1,
         "school": "Trans",
         "castingTime": "Act",
@@ -2238,6 +2331,7 @@ export const SPELLLIST =
     },
     {
         "name": "Mage Armor",
+        "id": 95,
         "level": 1,
         "school": "Abjur",
         "castingTime": "Act",
@@ -2261,6 +2355,7 @@ export const SPELLLIST =
     },
     {
         "name": "Magic Missile",
+        "id": 96,
         "level": 1,
         "school": "Evoc",
         "castingTime": "Act",
@@ -2284,6 +2379,7 @@ export const SPELLLIST =
     },
     {
         "name": "Protection from Evil/Good",
+        "id": 97,
         "level": 1,
         "school": "Abjur",
         "castingTime": "Act",
@@ -2309,6 +2405,7 @@ export const SPELLLIST =
     },
     {
         "name": "Purify Food/Drink",
+        "id": 98,
         "level": 1,
         "school": "Abjur",
         "castingTime": "Act",
@@ -2333,6 +2430,7 @@ export const SPELLLIST =
     },
     {
         "name": "Ray of Sickness",
+        "id": 99,
         "level": 1,
         "school": "Necro",
         "castingTime": "Act",
@@ -2357,6 +2455,7 @@ export const SPELLLIST =
     },
     {
         "name": "Sanctuary",
+        "id": 100,
         "level": 1,
         "school": "Abjur",
         "castingTime": "Bonus",
@@ -2381,6 +2480,7 @@ export const SPELLLIST =
     },
     {
         "name": "Searing Smite",
+        "id": 101,
         "level": 1,
         "school": "Evoc",
         "castingTime": "Bonus",
@@ -2406,6 +2506,7 @@ export const SPELLLIST =
     },
     {
         "name": "Shield",
+        "id": 102,
         "level": 1,
         "school": "Abjur",
         "castingTime": "React",
@@ -2429,6 +2530,7 @@ export const SPELLLIST =
     },
     {
         "name": "Shield of Faith",
+        "id": 103,
         "level": 1,
         "school": "Abjur",
         "castingTime": "Bonus",
@@ -2453,6 +2555,7 @@ export const SPELLLIST =
     },
     {
         "name": "Silent Image",
+        "id": 104,
         "level": 1,
         "school": "Illus",
         "castingTime": "Act",
@@ -2477,6 +2580,7 @@ export const SPELLLIST =
     },
     {
         "name": "Sleep",
+        "id": 105,
         "level": 1,
         "school": "Ench",
         "castingTime": "Act",
@@ -2500,6 +2604,7 @@ export const SPELLLIST =
     },
     {
         "name": "Snare",
+        "id": 106,
         "level": 1,
         "school": "Abjur",
         "castingTime": "1 Min",
@@ -2525,6 +2630,7 @@ export const SPELLLIST =
     },
     {
         "name": "Speak with Animals",
+        "id": 107,
         "level": 1,
         "school": "Divin",
         "castingTime": "Act",
@@ -2549,6 +2655,7 @@ export const SPELLLIST =
     },
     {
         "name": "Tasha's Hideous Laughter",
+        "id": 108,
         "level": 1,
         "school": "Ench",
         "castingTime": "Act",
@@ -2574,6 +2681,7 @@ export const SPELLLIST =
     },
     {
         "name": "Tenser's Floating Disk",
+        "id": 109,
         "level": 1,
         "school": "Evoc",
         "castingTime": "Act",
@@ -2598,6 +2706,7 @@ export const SPELLLIST =
     },
     {
         "name": "Thunderous Smite",
+        "id": 110,
         "level": 1,
         "school": "Evoc",
         "castingTime": "Bonus",
@@ -2623,6 +2732,7 @@ export const SPELLLIST =
     },
     {
         "name": "Thunderwave",
+        "id": 111,
         "level": 1,
         "school": "Evoc",
         "castingTime": "Act",
@@ -2647,6 +2757,7 @@ export const SPELLLIST =
     },
     {
         "name": "Unseen Servant",
+        "id": 112,
         "level": 1,
         "school": "Conj",
         "castingTime": "Act",
@@ -2670,6 +2781,7 @@ export const SPELLLIST =
     },
     {
         "name": "Witch Bolt",
+        "id": 113,
         "level": 1,
         "school": "Evoc",
         "castingTime": "Act",
@@ -2695,6 +2807,7 @@ export const SPELLLIST =
     },
     {
         "name": "Wrathful Smite",
+        "id": 114,
         "level": 1,
         "school": "Evoc",
         "castingTime": "Bonus",
@@ -2720,6 +2833,7 @@ export const SPELLLIST =
     },
     {
         "name": "Zephyr Strike",
+        "id": 115,
         "level": 1,
         "school": "Trans",
         "castingTime": "Bonus",
@@ -2743,6 +2857,7 @@ export const SPELLLIST =
     },
     {
         "name": "Aganazzar's Scorcher",
+        "id": 116,
         "level": 2,
         "school": "Evoc",
         "castingTime": "Act",
@@ -2767,6 +2882,7 @@ export const SPELLLIST =
     },
     {
         "name": "Aid",
+        "id": 117,
         "level": 2,
         "school": "Abjur",
         "castingTime": "Act",
@@ -2790,6 +2906,7 @@ export const SPELLLIST =
     },
     {
         "name": "Alter Self",
+        "id": 118,
         "level": 2,
         "school": "Trans",
         "castingTime": "Act",
@@ -2813,6 +2930,7 @@ export const SPELLLIST =
     },
     {
         "name": "Animal Messenger",
+        "id": 119,
         "level": 2,
         "school": "Ench",
         "castingTime": "Act",
@@ -2837,6 +2955,7 @@ export const SPELLLIST =
     },
     {
         "name": "Arcane Lock",
+        "id": 120,
         "level": 2,
         "school": "Abjur",
         "castingTime": "Act",
@@ -2861,6 +2980,7 @@ export const SPELLLIST =
     },
     {
         "name": "Augury",
+        "id": 121,
         "level": 2,
         "school": "Divin",
         "castingTime": "1 Min",
@@ -2886,6 +3006,7 @@ export const SPELLLIST =
     },
     {
         "name": "Barkskin",
+        "id": 122,
         "level": 2,
         "school": "Trans",
         "castingTime": "Act",
@@ -2910,6 +3031,7 @@ export const SPELLLIST =
     },
     {
         "name": "Beast Sense",
+        "id": 123,
         "level": 2,
         "school": "Divin",
         "castingTime": "Act",
@@ -2935,6 +3057,7 @@ export const SPELLLIST =
     },
     {
         "name": "Blindness/Deafness",
+        "id": 124,
         "level": 2,
         "school": "Necro",
         "castingTime": "Act",
@@ -2959,6 +3082,7 @@ export const SPELLLIST =
     },
     {
         "name": "Blur",
+        "id": 125,
         "level": 2,
         "school": "Illus",
         "castingTime": "Act",
@@ -2983,6 +3107,7 @@ export const SPELLLIST =
     },
     {
         "name": "Branding Smite",
+        "id": 126,
         "level": 2,
         "school": "Evoc",
         "castingTime": "Bonus",
@@ -3006,6 +3131,7 @@ export const SPELLLIST =
     },
     {
         "name": "Calm Emotions",
+        "id": 127,
         "level": 2,
         "school": "Ench",
         "castingTime": "Act",
@@ -3031,6 +3157,7 @@ export const SPELLLIST =
     },
     {
         "name": "Cloud of Daggers",
+        "id": 128,
         "level": 2,
         "school": "Conj",
         "castingTime": "Act",
@@ -3055,6 +3182,7 @@ export const SPELLLIST =
     },
     {
         "name": "Continual Flame",
+        "id": 129,
         "level": 2,
         "school": "Evoc",
         "castingTime": "Act",
@@ -3079,6 +3207,7 @@ export const SPELLLIST =
     },
     {
         "name": "Cordon of Arrows",
+        "id": 130,
         "level": 2,
         "school": "Trans",
         "castingTime": "Acti",
@@ -3104,6 +3233,7 @@ export const SPELLLIST =
     },
     {
         "name": "Crown of Madness",
+        "id": 131,
         "level": 2,
         "school": "Ench",
         "castingTime": "Act",
@@ -3129,6 +3259,7 @@ export const SPELLLIST =
     },
     {
         "name": "Darkness",
+        "id": 132,
         "level": 2,
         "school": "Evoc",
         "castingTime": "Act",
@@ -3153,6 +3284,7 @@ export const SPELLLIST =
     },
     {
         "name": "Darkvision",
+        "id": 133,
         "level": 2,
         "school": "Trans",
         "castingTime": "Act",
@@ -3176,6 +3308,7 @@ export const SPELLLIST =
     },
     {
         "name": "Detect Thoughts",
+        "id": 134,
         "level": 2,
         "school": "Divin",
         "castingTime": "Act",
@@ -3200,6 +3333,7 @@ export const SPELLLIST =
     },
     {
         "name": "Dragon's Breath",
+        "id": 135,
         "level": 2,
         "school": "Trans",
         "castingTime": "Bonus",
@@ -3225,6 +3359,7 @@ export const SPELLLIST =
     },
     {
         "name": "Dust Devil",
+        "id": 136,
         "level": 2,
         "school": "Conj",
         "castingTime": "Act",
@@ -3249,6 +3384,7 @@ export const SPELLLIST =
     },
     {
         "name": "Earthbind",
+        "id": 137,
         "level": 2,
         "school": "Trans",
         "castingTime": "Act",
@@ -3273,6 +3409,7 @@ export const SPELLLIST =
     },
     {
         "name": "Enhance Ability",
+        "id": 138,
         "level": 2,
         "school": "Trans",
         "castingTime": "Act",
@@ -3297,6 +3434,7 @@ export const SPELLLIST =
     },
     {
         "name": "Enlarge/Reduce",
+        "id": 139,
         "level": 2,
         "school": "Trans",
         "castingTime": "Act",
@@ -3322,6 +3460,7 @@ export const SPELLLIST =
     },
     {
         "name": "Enthrall",
+        "id": 140,
         "level": 2,
         "school": "Ench",
         "castingTime": "Act",
@@ -3346,6 +3485,7 @@ export const SPELLLIST =
     },
     {
         "name": "Find Steed",
+        "id": 141,
         "level": 2,
         "school": "Conj",
         "castingTime": "10 min",
@@ -3368,6 +3508,7 @@ export const SPELLLIST =
     },
     {
         "name": "Find Traps",
+        "id": 142,
         "level": 2,
         "school": "Divin",
         "castingTime": "Act",
@@ -3391,6 +3532,7 @@ export const SPELLLIST =
     },
     {
         "name": "Flame Blade",
+        "id": 143,
         "level": 2,
         "school": "Evoc",
         "castingTime": "Bonus",
@@ -3416,6 +3558,7 @@ export const SPELLLIST =
     },
     {
         "name": "Flaming Sphere",
+        "id": 144,
         "level": 2,
         "school": "Conj",
         "castingTime": "Act",
@@ -3441,6 +3584,7 @@ export const SPELLLIST =
     },
     {
         "name": "Gentle Repose",
+        "id": 145,
         "level": 2,
         "school": "Necro",
         "castingTime": "Act",
@@ -3465,6 +3609,7 @@ export const SPELLLIST =
     },
     {
         "name": "Gust of Wind",
+        "id": 146,
         "level": 2,
         "school": "Evoc",
         "castingTime": "Act",
@@ -3489,6 +3634,7 @@ export const SPELLLIST =
     },
     {
         "name": "Healing Spirit",
+        "id": 147,
         "level": 2,
         "school": "Conj",
         "castingTime": "Bonus",
@@ -3513,6 +3659,7 @@ export const SPELLLIST =
     },
     {
         "name": "Heat Metal",
+        "id": 148,
         "level": 2,
         "school": "Trans",
         "castingTime": "Act",
@@ -3537,6 +3684,7 @@ export const SPELLLIST =
     },
     {
         "name": "Hold Person",
+        "id": 149,
         "level": 2,
         "school": "Ench",
         "castingTime": "Act",
@@ -3562,6 +3710,7 @@ export const SPELLLIST =
     },
     {
         "name": "Invisibility",
+        "id": 150,
         "level": 2,
         "school": "Illus",
         "castingTime": "Act",
@@ -3586,6 +3735,7 @@ export const SPELLLIST =
     },
     {
         "name": "Knock",
+        "id": 151,
         "level": 2,
         "school": "Trans",
         "castingTime": "Act",
@@ -3609,6 +3759,7 @@ export const SPELLLIST =
     },
     {
         "name": "Lesser Restoration",
+        "id": 152,
         "level": 2,
         "school": "Abjur",
         "castingTime": "Act",
@@ -3632,6 +3783,7 @@ export const SPELLLIST =
     },
     {
         "name": "Levitate",
+        "id": 153,
         "level": 2,
         "school": "Trans",
         "castingTime": "Act",
@@ -3657,6 +3809,7 @@ export const SPELLLIST =
     },
     {
         "name": "Locate Animals or Plants",
+        "id": 154,
         "level": 2,
         "school": "Divin",
         "castingTime": "Act",
@@ -3680,6 +3833,7 @@ export const SPELLLIST =
     },
     {
         "name": "Locate Object",
+        "id": 155,
         "level": 2,
         "school": "Divin",
         "castingTime": "Act",
@@ -3704,6 +3858,7 @@ export const SPELLLIST =
     },
     {
         "name": "Magic Mouth",
+        "id": 156,
         "level": 2,
         "school": "Illus",
         "castingTime": "Bonus",
@@ -3729,6 +3884,7 @@ export const SPELLLIST =
     },
     {
         "name": "Magic Weapon",
+        "id": 157,
         "level": 2,
         "school": "Trans",
         "castingTime": "Bonus",
@@ -3753,6 +3909,7 @@ export const SPELLLIST =
     },
     {
         "name": "Maximilian’s Earthen Grasp",
+        "id": 158,
         "level": 2,
         "school": "Trans",
         "castingTime": "Act",
@@ -3778,6 +3935,7 @@ export const SPELLLIST =
     },
     {
         "name": "Melf's Acid Arrow",
+        "id": 159,
         "level": 2,
         "school": "Conj",
         "castingTime": "Act",
@@ -3802,6 +3960,7 @@ export const SPELLLIST =
     },
     {
         "name": "Mind Spike",
+        "id": 160,
         "level": 2,
         "school": "Divin",
         "castingTime": "Act",
@@ -3827,6 +3986,7 @@ export const SPELLLIST =
     },
     {
         "name": "Mirror Image",
+        "id": 161,
         "level": 2,
         "school": "Illus",
         "castingTime": "Act",
@@ -3850,6 +4010,7 @@ export const SPELLLIST =
     },
     {
         "name": "Misty Step",
+        "id": 162,
         "level": 2,
         "school": "Conj",
         "castingTime": "Bonus",
@@ -3873,6 +4034,7 @@ export const SPELLLIST =
     },
     {
         "name": "Moonbeam",
+        "id": 163,
         "level": 2,
         "school": "Evoc",
         "castingTime": "Act",
@@ -3898,6 +4060,7 @@ export const SPELLLIST =
     },
     {
         "name": "Nystul's Magic Aura",
+        "id": 164,
         "level": 2,
         "school": "Illus",
         "castingTime": "Act",
@@ -3921,6 +4084,7 @@ export const SPELLLIST =
     },
     {
         "name": "Pass Without Trace",
+        "id": 165,
         "level": 2,
         "school": "Abjur",
         "castingTime": "Act",
@@ -3945,6 +4109,7 @@ export const SPELLLIST =
     },
     {
         "name": "Phantasmal Force",
+        "id": 166,
         "level": 2,
         "school": "Illus",
         "castingTime": "Act",
@@ -3969,6 +4134,7 @@ export const SPELLLIST =
     },
     {
         "name": "Prayer Of Healing",
+        "id": 167,
         "level": 2,
         "school": "Evoc",
         "castingTime": "10 Min",
@@ -3993,6 +4159,7 @@ export const SPELLLIST =
     },
     {
         "name": "Protection from Poison",
+        "id": 168,
         "level": 2,
         "school": "Abjur",
         "castingTime": "Act",
@@ -4016,6 +4183,7 @@ export const SPELLLIST =
     },
     {
         "name": "Pyrotechnics",
+        "id": 169,
         "level": 2,
         "school": "Trans",
         "castingTime": "Act",
@@ -4039,6 +4207,7 @@ export const SPELLLIST =
     },
     {
         "name": "Ray of Enfeeblement",
+        "id": 170,
         "level": 2,
         "school": "Necro",
         "castingTime": "Act",
@@ -4064,6 +4233,7 @@ export const SPELLLIST =
     },
     {
         "name": "Rope Trick",
+        "id": 171,
         "level": 2,
         "school": "Trans",
         "castingTime": "Act",
@@ -4088,6 +4258,7 @@ export const SPELLLIST =
     },
     {
         "name": "Scorching Ray",
+        "id": 172,
         "level": 2,
         "school": "Evoc",
         "castingTime": "Act",
@@ -4112,6 +4283,7 @@ export const SPELLLIST =
     },
     {
         "name": "See Invisibility",
+        "id": 173,
         "level": 2,
         "school": "Divin",
         "castingTime": "Act",
@@ -4134,6 +4306,7 @@ export const SPELLLIST =
     },
     {
         "name": "Shadow Blade",
+        "id": 174,
         "level": 2,
         "school": "Illus",
         "castingTime": "Bonus",
@@ -4158,6 +4331,7 @@ export const SPELLLIST =
     },
     {
         "name": "Shatter",
+        "id": 175,
         "level": 2,
         "school": "Evoc",
         "castingTime": "Act",
@@ -4182,6 +4356,7 @@ export const SPELLLIST =
     },
     {
         "name": "Silence",
+        "id": 176,
         "level": 2,
         "school": "Illus",
         "castingTime": "Act",
@@ -4207,6 +4382,7 @@ export const SPELLLIST =
     },
     {
         "name": "Skywrite",
+        "id": 177,
         "level": 2,
         "school": "Trans",
         "castingTime": "Act",
@@ -4231,6 +4407,7 @@ export const SPELLLIST =
     },
     {
         "name": "Snilloc’s Snowball Swarm",
+        "id": 178,
         "level": 2,
         "school": "Evoc",
         "castingTime": "Act",
@@ -4255,6 +4432,7 @@ export const SPELLLIST =
     },
     {
         "name": "Spider Climb",
+        "id": 179,
         "level": 2,
         "school": "Trans",
         "castingTime": "Act",
@@ -4279,6 +4457,7 @@ export const SPELLLIST =
     },
     {
         "name": "Spike Growth",
+        "id": 180,
         "level": 2,
         "school": "Trans",
         "castingTime": "Act",
@@ -4304,6 +4483,7 @@ export const SPELLLIST =
     },
     {
         "name": "Spiritual Weapon",
+        "id": 181,
         "level": 2,
         "school": "Evoc",
         "castingTime": "Bonus",
@@ -4328,6 +4508,7 @@ export const SPELLLIST =
     },
     {
         "name": "Suggestion",
+        "id": 182,
         "level": 2,
         "school": "Ench",
         "castingTime": "Act",
@@ -4353,6 +4534,7 @@ export const SPELLLIST =
     },
     {
         "name": "Warding Bond",
+        "id": 183,
         "level": 2,
         "school": "Abjur",
         "castingTime": "Act",
@@ -4377,6 +4559,7 @@ export const SPELLLIST =
     },
     {
         "name": "Warding Wind",
+        "id": 184,
         "level": 2,
         "school": "Evoc",
         "castingTime": "Act",
@@ -4400,6 +4583,7 @@ export const SPELLLIST =
     },
     {
         "name": "Web",
+        "id": 185,
         "level": 2,
         "school": "Conj",
         "castingTime": "Act",
@@ -4425,6 +4609,7 @@ export const SPELLLIST =
     },
     {
         "name": "Zone of Truth",
+        "id": 186,
         "level": 2,
         "school": "Ench",
         "castingTime": "Act",
@@ -4449,6 +4634,7 @@ export const SPELLLIST =
     },
     {
         "name": "Animate Dead",
+        "id": 187,
         "level": 3,
         "school": "Necro",
         "castingTime": "1 min",
@@ -4472,6 +4658,7 @@ export const SPELLLIST =
     },
     {
         "name": "Aura of Vitality",
+        "id": 188,
         "level": 3,
         "school": "Evoc",
         "castingTime": "Act",
@@ -4496,6 +4683,7 @@ export const SPELLLIST =
     },
     {
         "name": "Beacon Of Hope",
+        "id": 189,
         "level": 3,
         "school": "Abjur",
         "castingTime": "Act",
@@ -4520,6 +4708,7 @@ export const SPELLLIST =
     },
     {
         "name": "Bestow Curse",
+        "id": 190,
         "level": 3,
         "school": "Necro",
         "castingTime": "Act",
@@ -4545,6 +4734,7 @@ export const SPELLLIST =
     },
     {
         "name": "Blinding Smite",
+        "id": 191,
         "level": 3,
         "school": "Evoc",
         "castingTime": "Bonus",
@@ -4568,6 +4758,7 @@ export const SPELLLIST =
     },
     {
         "name": "Blink",
+        "id": 192,
         "level": 3,
         "school": "Trans",
         "castingTime": "Act",
@@ -4590,6 +4781,7 @@ export const SPELLLIST =
     },
     {
         "name": "Call Lightning",
+        "id": 193,
         "level": 3,
         "school": "Conj",
         "castingTime": "Act",
@@ -4615,6 +4807,7 @@ export const SPELLLIST =
     },
     {
         "name": "Catnap",
+        "id": 194,
         "level": 3,
         "school": "Ench",
         "castingTime": "Act",
@@ -4638,6 +4831,7 @@ export const SPELLLIST =
     },
     {
         "name": "Clairvoyance",
+        "id": 195,
         "level": 3,
         "school": "Divin",
         "castingTime": "10 min",
@@ -4663,6 +4857,7 @@ export const SPELLLIST =
     },
     {
         "name": "Conjure Animals",
+        "id": 196,
         "level": 3,
         "school": "Conj",
         "castingTime": "Act",
@@ -4686,6 +4881,7 @@ export const SPELLLIST =
     },
     {
         "name": "Conjure Barrage",
+        "id": 197,
         "level": 3,
         "school": "Conj",
         "castingTime": "Act",
@@ -4709,6 +4905,7 @@ export const SPELLLIST =
     },
     {
         "name": "Counterspell",
+        "id": 198,
         "level": 3,
         "school": "Abjur",
         "castingTime": "React",
@@ -4732,6 +4929,7 @@ export const SPELLLIST =
     },
     {
         "name": "Create Food and Water",
+        "id": 199,
         "level": 3,
         "school": "Conj",
         "castingTime": "Act",
@@ -4754,6 +4952,7 @@ export const SPELLLIST =
     },
     {
         "name": "Crusader's Mantle",
+        "id": 200,
         "level": 3,
         "school": "Evoc",
         "castingTime": "Act",
@@ -4778,6 +4977,7 @@ export const SPELLLIST =
     },
     {
         "name": "Daylight",
+        "id": 201,
         "level": 3,
         "school": "Evoc",
         "castingTime": "Act",
@@ -4801,6 +5001,7 @@ export const SPELLLIST =
     },
     {
         "name": "Dispel Magic",
+        "id": 202,
         "level": 3,
         "school": "Abjur",
         "castingTime": "Act",
@@ -4824,6 +5025,7 @@ export const SPELLLIST =
     },
     {
         "name": "Elemental Weapon",
+        "id": 203,
         "level": 3,
         "school": "Trans",
         "castingTime": "Act",
@@ -4848,6 +5050,7 @@ export const SPELLLIST =
     },
     {
         "name": "Enemies Abound",
+        "id": 204,
         "level": 3,
         "school": "Ench",
         "castingTime": "Act",
@@ -4873,6 +5076,7 @@ export const SPELLLIST =
     },
     {
         "name": "Erupting Earth",
+        "id": 205,
         "level": 3,
         "school": "Trans",
         "castingTime": "Act",
@@ -4897,6 +5101,7 @@ export const SPELLLIST =
     },
     {
         "name": "Fear",
+        "id": 206,
         "level": 3,
         "school": "Illus",
         "castingTime": "Act",
@@ -4922,6 +5127,7 @@ export const SPELLLIST =
     },
     {
         "name": "Feign Death",
+        "id": 207,
         "level": 3,
         "school": "Necro",
         "castingTime": "Act",
@@ -4946,6 +5152,7 @@ export const SPELLLIST =
     },
     {
         "name": "Fireball",
+        "id": 208,
         "level": 3,
         "school": "Evoc",
         "castingTime": "Act",
@@ -4970,6 +5177,7 @@ export const SPELLLIST =
     },
     {
         "name": "Flame Arrows",
+        "id": 209,
         "level": 3,
         "school": "Trans",
         "castingTime": "Act",
@@ -4993,6 +5201,7 @@ export const SPELLLIST =
     },
     {
         "name": "Fly",
+        "id": 210,
         "level": 3,
         "school": "Trans",
         "castingTime": "Act",
@@ -5017,6 +5226,7 @@ export const SPELLLIST =
     },
     {
         "name": "Gaseous Form",
+        "id": 211,
         "level": 3,
         "school": "Trans",
         "castingTime": "Act",
@@ -5039,6 +5249,7 @@ export const SPELLLIST =
     },
     {
         "name": "Glyph of Warding",
+        "id": 212,
         "level": 3,
         "school": "Abjur",
         "castingTime": "1 Hr",
@@ -5063,6 +5274,7 @@ export const SPELLLIST =
     },
     {
         "name": "Haste",
+        "id": 213,
         "level": 3,
         "school": "Trans",
         "castingTime": "Act",
@@ -5087,6 +5299,7 @@ export const SPELLLIST =
     },
     {
         "name": "Hunger of Hadar",
+        "id": 214,
         "level": 3,
         "school": "Conj",
         "castingTime": "Act",
@@ -5112,6 +5325,7 @@ export const SPELLLIST =
     },
     {
         "name": "Hypnotic Pattern",
+        "id": 215,
         "level": 3,
         "school": "Illus",
         "castingTime": "Act",
@@ -5137,6 +5351,7 @@ export const SPELLLIST =
     },
     {
         "name": "Leomund's Tiny Hut",
+        "id": 216,
         "level": 3,
         "school": "Evoc",
         "castingTime": "1 min",
@@ -5161,6 +5376,7 @@ export const SPELLLIST =
     },
     {
         "name": "Life Transference",
+        "id": 217,
         "level": 3,
         "school": "Necro",
         "castingTime": "Act",
@@ -5184,6 +5400,7 @@ export const SPELLLIST =
     },
     {
         "name": "Lightning Arrow",
+        "id": 218,
         "level": 3,
         "school": "Trans",
         "castingTime": "Bonus",
@@ -5208,6 +5425,7 @@ export const SPELLLIST =
     },
     {
         "name": "Lightning Bolt",
+        "id": 219,
         "level": 3,
         "school": "Evoc",
         "castingTime": "Act",
@@ -5232,6 +5450,7 @@ export const SPELLLIST =
     },
     {
         "name": "Magic Circle",
+        "id": 220,
         "level": 3,
         "school": "Abjur",
         "castingTime": "1 min",
@@ -5257,6 +5476,7 @@ export const SPELLLIST =
     },
     {
         "name": "Major Image",
+        "id": 221,
         "level": 3,
         "school": "Illus",
         "castingTime": "Act",
@@ -5281,6 +5501,7 @@ export const SPELLLIST =
     },
     {
         "name": "Mass Healing Word",
+        "id": 222,
         "level": 3,
         "school": "Evoc",
         "castingTime": "Bonus",
@@ -5304,6 +5525,7 @@ export const SPELLLIST =
     },
     {
         "name": "Meld into Stone",
+        "id": 223,
         "level": 3,
         "school": "Trans",
         "castingTime": "Act",
@@ -5328,6 +5550,7 @@ export const SPELLLIST =
     },
     {
         "name": "Melf’s Minute Meteors",
+        "id": 224,
         "level": 3,
         "school": "Evoc",
         "castingTime": "Act",
@@ -5353,6 +5576,7 @@ export const SPELLLIST =
     },
     {
         "name": "Nondetection",
+        "id": 225,
         "level": 3,
         "school": "Abjur",
         "castingTime": "Act",
@@ -5377,6 +5601,7 @@ export const SPELLLIST =
     },
     {
         "name": "Phantom Steed",
+        "id": 226,
         "level": 3,
         "school": "Illus",
         "castingTime": "1 Min",
@@ -5401,6 +5626,7 @@ export const SPELLLIST =
     },
     {
         "name": "Plant Growth",
+        "id": 227,
         "level": 3,
         "school": "Trans",
         "castingTime": "Act or 8 Hrs",
@@ -5424,6 +5650,7 @@ export const SPELLLIST =
     },
     {
         "name": "Protection From Energy",
+        "id": 228,
         "level": 3,
         "school": "Abjur",
         "castingTime": "Act",
@@ -5448,6 +5675,7 @@ export const SPELLLIST =
     },
     {
         "name": "Remove Curse",
+        "id": 229,
         "level": 3,
         "school": "Abjur",
         "castingTime": "Act",
@@ -5471,6 +5699,7 @@ export const SPELLLIST =
     },
     {
         "name": "Revivify",
+        "id": 230,
         "level": 3,
         "school": "Conj",
         "castingTime": "Act",
@@ -5495,6 +5724,7 @@ export const SPELLLIST =
     },
     {
         "name": "Sending",
+        "id": 231,
         "level": 3,
         "school": "Evoc",
         "castingTime": "Act",
@@ -5518,6 +5748,7 @@ export const SPELLLIST =
     },
     {
         "name": "Sleet Storm",
+        "id": 232,
         "level": 3,
         "school": "Conj",
         "castingTime": "Act",
@@ -5543,6 +5774,7 @@ export const SPELLLIST =
     },
     {
         "name": "Slow",
+        "id": 233,
         "level": 3,
         "school": "Trans",
         "castingTime": "Act",
@@ -5568,6 +5800,7 @@ export const SPELLLIST =
     },
     {
         "name": "Speak With Dead",
+        "id": 234,
         "level": 3,
         "school": "Necro",
         "castingTime": "Act",
@@ -5591,6 +5824,7 @@ export const SPELLLIST =
     },
     {
         "name": "Speak with Plants",
+        "id": 235,
         "level": 3,
         "school": "Trans",
         "castingTime": "Act",
@@ -5614,6 +5848,7 @@ export const SPELLLIST =
     },
     {
         "name": "Spirit Guardians",
+        "id": 236,
         "level": 3,
         "school": "Conj",
         "castingTime": "Act",
@@ -5639,6 +5874,7 @@ export const SPELLLIST =
     },
     {
         "name": "Stinking Cloud",
+        "id": 237,
         "level": 3,
         "school": "Conj",
         "castingTime": "Act",
@@ -5664,6 +5900,7 @@ export const SPELLLIST =
     },
     {
         "name": "Summon Lesser Demons",
+        "id": 238,
         "level": 3,
         "school": "Conj",
         "castingTime": "Act",
@@ -5688,6 +5925,7 @@ export const SPELLLIST =
     },
     {
         "name": "Thunderstep",
+        "id": 239,
         "level": 3,
         "school": "Conj",
         "castingTime": "Act",
@@ -5712,6 +5950,7 @@ export const SPELLLIST =
     },
     {
         "name": "Tidal Wave",
+        "id": 240,
         "level": 3,
         "school": "Conj",
         "castingTime": "Act",
@@ -5736,6 +5975,7 @@ export const SPELLLIST =
     },
     {
         "name": "Tiny Servant",
+        "id": 241,
         "level": 3,
         "school": "Trans",
         "castingTime": "1 Min",
@@ -5759,6 +5999,7 @@ export const SPELLLIST =
     },
     {
         "name": "Tongues",
+        "id": 242,
         "level": 3,
         "school": "Divin",
         "castingTime": "Act",
@@ -5782,6 +6023,7 @@ export const SPELLLIST =
     },
     {
         "name": "Vampiric Touch",
+        "id": 243,
         "level": 3,
         "school": "Necro",
         "castingTime": "Act",
@@ -5807,6 +6049,7 @@ export const SPELLLIST =
     },
     {
         "name": "Wall of Sand",
+        "id": 244,
         "level": 3,
         "school": "Evoc",
         "castingTime": "Act",
@@ -5830,6 +6073,7 @@ export const SPELLLIST =
     },
     {
         "name": "Wall of Water",
+        "id": 245,
         "level": 3,
         "school": "Evoc",
         "castingTime": "Act",
@@ -5854,6 +6098,7 @@ export const SPELLLIST =
     },
     {
         "name": "Water Breathing",
+        "id": 246,
         "level": 3,
         "school": "Trans",
         "castingTime": "Act",
@@ -5878,6 +6123,7 @@ export const SPELLLIST =
     },
     {
         "name": "Water Walk",
+        "id": 247,
         "level": 3,
         "school": "Trans",
         "castingTime": "Act",
@@ -5902,6 +6148,7 @@ export const SPELLLIST =
     },
     {
         "name": "Wind Wall",
+        "id": 248,
         "level": 3,
         "school": "Evoc",
         "castingTime": "Act",
@@ -5926,6 +6173,7 @@ export const SPELLLIST =
     },
     {
         "name": "Arcane Eye",
+        "id": 249,
         "level": 4,
         "school": "Divin",
         "castingTime": "Act",
@@ -5950,6 +6198,7 @@ export const SPELLLIST =
     },
     {
         "name": "Aura of Life",
+        "id": 250,
         "level": 4,
         "school": "Abjur",
         "castingTime": "Act",
@@ -5974,6 +6223,7 @@ export const SPELLLIST =
     },
     {
         "name": "Aura of Purity",
+        "id": 251,
         "level": 4,
         "school": "Abjur",
         "castingTime": "Act",
@@ -5998,6 +6248,7 @@ export const SPELLLIST =
     },
     {
         "name": "Banishment",
+        "id": 252,
         "level": 4,
         "school": "Abjur",
         "castingTime": "Act",
@@ -6023,6 +6274,7 @@ export const SPELLLIST =
     },
     {
         "name": "Blight",
+        "id": 253,
         "level": 4,
         "school": "Necro",
         "castingTime": "Act",
@@ -6047,6 +6299,7 @@ export const SPELLLIST =
     },
     {
         "name": "Charm Monster",
+        "id": 254,
         "level": 4,
         "school": "Ench",
         "castingTime": "Act",
@@ -6071,6 +6324,7 @@ export const SPELLLIST =
     },
     {
         "name": "Compulsion",
+        "id": 255,
         "level": 4,
         "school": "Ench",
         "castingTime": "Act",
@@ -6096,6 +6350,7 @@ export const SPELLLIST =
     },
     {
         "name": "Confusion",
+        "id": 256,
         "level": 4,
         "school": "Ench",
         "castingTime": "Act",
@@ -6121,6 +6376,7 @@ export const SPELLLIST =
     },
     {
         "name": "Conjure Minor Elementals",
+        "id": 257,
         "level": 4,
         "school": "Conj",
         "castingTime": "1 Min",
@@ -6145,6 +6401,7 @@ export const SPELLLIST =
     },
     {
         "name": "Conjure Woodland Beings",
+        "id": 258,
         "level": 4,
         "school": "Conj",
         "castingTime": "Act",
@@ -6168,6 +6425,7 @@ export const SPELLLIST =
     },
     {
         "name": "Control Water",
+        "id": 259,
         "level": 4,
         "school": "Trans",
         "castingTime": "Act",
@@ -6192,6 +6450,7 @@ export const SPELLLIST =
     },
     {
         "name": "Death Ward",
+        "id": 260,
         "level": 4,
         "school": "Abjur",
         "castingTime": "Act",
@@ -6215,6 +6474,7 @@ export const SPELLLIST =
     },
     {
         "name": "Dimension Door",
+        "id": 261,
         "level": 4,
         "school": "Conj",
         "castingTime": "Act",
@@ -6238,6 +6498,7 @@ export const SPELLLIST =
     },
     {
         "name": "Divination",
+        "id": 262,
         "level": 4,
         "school": "Divin",
         "castingTime": "Act",
@@ -6263,6 +6524,7 @@ export const SPELLLIST =
     },
     {
         "name": "Dominate Beast",
+        "id": 263,
         "level": 4,
         "school": "Ench",
         "castingTime": "Act",
@@ -6287,6 +6549,7 @@ export const SPELLLIST =
     },
     {
         "name": "Elemental Bane",
+        "id": 264,
         "level": 4,
         "school": "Trans",
         "castingTime": "Act",
@@ -6311,6 +6574,7 @@ export const SPELLLIST =
     },
     {
         "name": "Evard's Black Tentacles",
+        "id": 265,
         "level": 4,
         "school": "Conj",
         "castingTime": "Act",
@@ -6336,6 +6600,7 @@ export const SPELLLIST =
     },
     {
         "name": "Fabricate",
+        "id": 266,
         "level": 4,
         "school": "Trans",
         "castingTime": "10 Min",
@@ -6359,6 +6624,7 @@ export const SPELLLIST =
     },
     {
         "name": "Find Greater Steed",
+        "id": 267,
         "level": 4,
         "school": "Conj",
         "castingTime": "10 MIn",
@@ -6382,6 +6648,7 @@ export const SPELLLIST =
     },
     {
         "name": "Fire Shield",
+        "id": 268,
         "level": 4,
         "school": "Evoc",
         "castingTime": "Act",
@@ -6405,6 +6672,7 @@ export const SPELLLIST =
     },
     {
         "name": "Freedom Of Movement",
+        "id": 269,
         "level": 4,
         "school": "Abjur",
         "castingTime": "Act",
@@ -6428,6 +6696,7 @@ export const SPELLLIST =
     },
     {
         "name": "Giant Insect",
+        "id": 270,
         "level": 4,
         "school": "Trans",
         "castingTime": "Act",
@@ -6451,6 +6720,7 @@ export const SPELLLIST =
     },
     {
         "name": "Grasping Vine",
+        "id": 271,
         "level": 4,
         "school": "Conj",
         "castingTime": "Bonus",
@@ -6475,6 +6745,7 @@ export const SPELLLIST =
     },
     {
         "name": "Greater Invisibility",
+        "id": 272,
         "level": 4,
         "school": "Illus",
         "castingTime": "Act",
@@ -6499,6 +6770,7 @@ export const SPELLLIST =
     },
     {
         "name": "Guardian Of Faith",
+        "id": 273,
         "level": 4,
         "school": "Conj",
         "castingTime": "Act",
@@ -6523,6 +6795,7 @@ export const SPELLLIST =
     },
     {
         "name": "Guardian of Nature",
+        "id": 274,
         "level": 4,
         "school": "Trans",
         "castingTime": "Bonus",
@@ -6546,6 +6819,7 @@ export const SPELLLIST =
     },
     {
         "name": "Hallucinatory Terrain",
+        "id": 275,
         "level": 4,
         "school": "Illus",
         "castingTime": "10 min",
@@ -6569,6 +6843,7 @@ export const SPELLLIST =
     },
     {
         "name": "Ice Storm",
+        "id": 276,
         "level": 4,
         "school": "Evoc",
         "castingTime": "Act",
@@ -6593,6 +6868,7 @@ export const SPELLLIST =
     },
     {
         "name": "Leomud's Secret Chest",
+        "id": 277,
         "level": 4,
         "school": "Conj",
         "castingTime": "Act",
@@ -6617,6 +6893,7 @@ export const SPELLLIST =
     },
     {
         "name": "Locate Creature",
+        "id": 278,
         "level": 4,
         "school": "Divin",
         "castingTime": "Act",
@@ -6641,6 +6918,7 @@ export const SPELLLIST =
     },
     {
         "name": "Mordenkainen's Faithful Hound",
+        "id": 279,
         "level": 4,
         "school": "Conj",
         "castingTime": "Act",
@@ -6665,6 +6943,7 @@ export const SPELLLIST =
     },
     {
         "name": "Mordenkainen's Private Sanctum",
+        "id": 280,
         "level": 4,
         "school": "Abjur",
         "castingTime": "10 Min",
@@ -6688,6 +6967,7 @@ export const SPELLLIST =
     },
     {
         "name": "Otiluke's Resilient Sphere",
+        "id": 281,
         "level": 4,
         "school": "Evoc",
         "castingTime": "Act",
@@ -6712,6 +6992,7 @@ export const SPELLLIST =
     },
     {
         "name": "Phantasmal Killer",
+        "id": 282,
         "level": 4,
         "school": "Illus",
         "castingTime": "Act",
@@ -6737,6 +7018,7 @@ export const SPELLLIST =
     },
     {
         "name": "Polymorph",
+        "id": 283,
         "level": 4,
         "school": "Trans",
         "castingTime": "Act",
@@ -6762,6 +7044,7 @@ export const SPELLLIST =
     },
     {
         "name": "Shadow of Moil",
+        "id": 284,
         "level": 4,
         "school": "Necro",
         "castingTime": "Act",
@@ -6786,6 +7069,7 @@ export const SPELLLIST =
     },
     {
         "name": "Sickening Radiance",
+        "id": 285,
         "level": 4,
         "school": "Conj",
         "castingTime": "Act",
@@ -6811,6 +7095,7 @@ export const SPELLLIST =
     },
     {
         "name": "Staggering Smite",
+        "id": 286,
         "level": 4,
         "school": "Evoc",
         "castingTime": "Bonus",
@@ -6835,6 +7120,7 @@ export const SPELLLIST =
     },
     {
         "name": "Stone Shape",
+        "id": 287,
         "level": 4,
         "school": "Trans",
         "castingTime": "Act",
@@ -6858,6 +7144,7 @@ export const SPELLLIST =
     },
     {
         "name": "Stoneskin",
+        "id": 288,
         "level": 4,
         "school": "Abjur",
         "castingTime": "Act",
@@ -6883,6 +7170,7 @@ export const SPELLLIST =
     },
     {
         "name": "Storm Sphere",
+        "id": 289,
         "level": 4,
         "school": "Evoc",
         "castingTime": "Act",
@@ -6908,6 +7196,7 @@ export const SPELLLIST =
     },
     {
         "name": "Summon Greater Demon",
+        "id": 290,
         "level": 4,
         "school": "Conj",
         "castingTime": "Act",
@@ -6933,6 +7222,7 @@ export const SPELLLIST =
     },
     {
         "name": "Vitriolic Sphere",
+        "id": 291,
         "level": 4,
         "school": "Evoc",
         "castingTime": "Act",
@@ -6957,6 +7247,7 @@ export const SPELLLIST =
     },
     {
         "name": "Wall of Fire",
+        "id": 292,
         "level": 4,
         "school": "Evoc",
         "castingTime": "Act",
@@ -6982,6 +7273,7 @@ export const SPELLLIST =
     },
     {
         "name": "Watery Sphere",
+        "id": 293,
         "level": 4,
         "school": "Conj",
         "castingTime": "Act",
@@ -7007,6 +7299,7 @@ export const SPELLLIST =
     },
     {
         "name": "Animate Objects",
+        "id": 294,
         "level": 5,
         "school": "Trans",
         "castingTime": "Act",
@@ -7031,6 +7324,7 @@ export const SPELLLIST =
     },
     {
         "name": "Antilife Shell",
+        "id": 295,
         "level": 5,
         "school": "Abjur",
         "castingTime": "Act",
@@ -7055,6 +7349,7 @@ export const SPELLLIST =
     },
     {
         "name": "Awaken",
+        "id": 296,
         "level": 5,
         "school": "Trans",
         "castingTime": "8 Hrs",
@@ -7079,6 +7374,7 @@ export const SPELLLIST =
     },
     {
         "name": "Banishing Smite",
+        "id": 297,
         "level": 5,
         "school": "Abjur",
         "castingTime": "Bonus",
@@ -7102,6 +7398,7 @@ export const SPELLLIST =
     },
     {
         "name": "Bigby's Hand",
+        "id": 298,
         "level": 5,
         "school": "Evoc",
         "castingTime": "Act",
@@ -7126,6 +7423,7 @@ export const SPELLLIST =
     },
     {
         "name": "Circle of Power",
+        "id": 299,
         "level": 5,
         "school": "Abjur",
         "castingTime": "Act",
@@ -7150,6 +7448,7 @@ export const SPELLLIST =
     },
     {
         "name": "Cloudkill",
+        "id": 300,
         "level": 5,
         "school": "Conj",
         "castingTime": "Act",
@@ -7175,6 +7474,7 @@ export const SPELLLIST =
     },
     {
         "name": "Commune",
+        "id": 301,
         "level": 5,
         "school": "Divin",
         "castingTime": "1 Min",
@@ -7199,6 +7499,7 @@ export const SPELLLIST =
     },
     {
         "name": "Commune with Nature",
+        "id": 302,
         "level": 5,
         "school": "Divin",
         "castingTime": "1 Min",
@@ -7222,6 +7523,7 @@ export const SPELLLIST =
     },
     {
         "name": "Cone Of Cold",
+        "id": 303,
         "level": 5,
         "school": "Evoc",
         "castingTime": "Act",
@@ -7246,6 +7548,7 @@ export const SPELLLIST =
     },
     {
         "name": "Conjure Elemental",
+        "id": 304,
         "level": 5,
         "school": "Conj",
         "castingTime": "1 Min",
@@ -7270,6 +7573,7 @@ export const SPELLLIST =
     },
     {
         "name": "Conjure Volley",
+        "id": 305,
         "level": 5,
         "school": "Conj",
         "castingTime": "Act",
@@ -7293,6 +7597,7 @@ export const SPELLLIST =
     },
     {
         "name": "Contact Other Plane",
+        "id": 306,
         "level": 5,
         "school": "Divin",
         "castingTime": "1 Min",
@@ -7316,6 +7621,7 @@ export const SPELLLIST =
     },
     {
         "name": "Contagion",
+        "id": 307,
         "level": 5,
         "school": "Necro",
         "castingTime": "Act",
@@ -7340,6 +7646,7 @@ export const SPELLLIST =
     },
     {
         "name": "Control Winds",
+        "id": 308,
         "level": 5,
         "school": "Trans",
         "castingTime": "Act",
@@ -7364,6 +7671,7 @@ export const SPELLLIST =
     },
     {
         "name": "Creation",
+        "id": 309,
         "level": 5,
         "school": "Illus",
         "castingTime": "1 Min",
@@ -7386,6 +7694,7 @@ export const SPELLLIST =
     },
     {
         "name": "Danse Macabre",
+        "id": 310,
         "level": 5,
         "school": "Necro",
         "castingTime": "Act",
@@ -7410,6 +7719,7 @@ export const SPELLLIST =
     },
     {
         "name": "Dawn",
+        "id": 311,
         "level": 5,
         "school": "Evoc",
         "castingTime": "Act",
@@ -7435,6 +7745,7 @@ export const SPELLLIST =
     },
     {
         "name": "Destructive Wave",
+        "id": 312,
         "level": 5,
         "school": "Evoc",
         "castingTime": "Act",
@@ -7460,6 +7771,7 @@ export const SPELLLIST =
     },
     {
         "name": "Dispel Evil and Good",
+        "id": 313,
         "level": 5,
         "school": "Abjur",
         "castingTime": "Act",
@@ -7484,6 +7796,7 @@ export const SPELLLIST =
     },
     {
         "name": "Dominate Person",
+        "id": 314,
         "level": 5,
         "school": "Ench",
         "castingTime": "Act",
@@ -7509,6 +7822,7 @@ export const SPELLLIST =
     },
     {
         "name": "Dream",
+        "id": 315,
         "level": 5,
         "school": "Illus",
         "castingTime": "1 Min",
@@ -7533,6 +7847,7 @@ export const SPELLLIST =
     },
     {
         "name": "Enervation",
+        "id": 316,
         "level": 5,
         "school": "Necro",
         "castingTime": "Act",
@@ -7557,6 +7872,7 @@ export const SPELLLIST =
     },
     {
         "name": "Far Step",
+        "id": 317,
         "level": 5,
         "school": "Conj",
         "castingTime": "Bonus",
@@ -7580,6 +7896,7 @@ export const SPELLLIST =
     },
     {
         "name": "Flame Strike",
+        "id": 318,
         "level": 5,
         "school": "Evoc",
         "castingTime": "Act",
@@ -7604,6 +7921,7 @@ export const SPELLLIST =
     },
     {
         "name": "Geas",
+        "id": 319,
         "level": 5,
         "school": "Ench",
         "castingTime": "1 min",
@@ -7628,6 +7946,7 @@ export const SPELLLIST =
     },
     {
         "name": "Greater Restoration",
+        "id": 320,
         "level": 5,
         "school": "Abjur",
         "castingTime": "Act",
@@ -7652,6 +7971,7 @@ export const SPELLLIST =
     },
     {
         "name": "Hallow",
+        "id": 321,
         "level": 5,
         "school": "Evoc",
         "castingTime": "24 Hrs",
@@ -7677,6 +7997,7 @@ export const SPELLLIST =
     },
     {
         "name": "Hold Monster",
+        "id": 322,
         "level": 5,
         "school": "Ench",
         "castingTime": "Act",
@@ -7702,6 +8023,7 @@ export const SPELLLIST =
     },
     {
         "name": "Holy Weapon",
+        "id": 323,
         "level": 5,
         "school": "Evoc",
         "castingTime": "Bonus",
@@ -7727,6 +8049,7 @@ export const SPELLLIST =
     },
     {
         "name": "Immolation",
+        "id": 324,
         "level": 5,
         "school": "Evoc",
         "castingTime": "Act",
@@ -7752,6 +8075,7 @@ export const SPELLLIST =
     },
     {
         "name": "Infernal Calling",
+        "id": 325,
         "level": 5,
         "school": "Conj",
         "castingTime": "1 Min",
@@ -7777,6 +8101,7 @@ export const SPELLLIST =
     },
     {
         "name": "Insect Plague",
+        "id": 326,
         "level": 5,
         "school": "Conj",
         "castingTime": "Act",
@@ -7802,6 +8127,7 @@ export const SPELLLIST =
     },
     {
         "name": "Legend Lore",
+        "id": 327,
         "level": 5,
         "school": "Divin",
         "castingTime": "10 min",
@@ -7825,6 +8151,7 @@ export const SPELLLIST =
     },
     {
         "name": "Maelstrom",
+        "id": 328,
         "level": 5,
         "school": "Evoc",
         "castingTime": "Act",
@@ -7849,6 +8176,7 @@ export const SPELLLIST =
     },
     {
         "name": "Mass Cure Wounds",
+        "id": 329,
         "level": 5,
         "school": "Conj",
         "castingTime": "Act",
@@ -7872,6 +8200,7 @@ export const SPELLLIST =
     },
     {
         "name": "Mislead",
+        "id": 330,
         "level": 5,
         "school": "Illus",
         "castingTime": "Act",
@@ -7895,6 +8224,7 @@ export const SPELLLIST =
     },
     {
         "name": "Modify Memory",
+        "id": 331,
         "level": 5,
         "school": "Ench",
         "castingTime": "Act",
@@ -7920,6 +8250,7 @@ export const SPELLLIST =
     },
     {
         "name": "Negative Energy Flood",
+        "id": 332,
         "level": 5,
         "school": "Necro",
         "castingTime": "Act",
@@ -7943,6 +8274,7 @@ export const SPELLLIST =
     },
     {
         "name": "Passwall",
+        "id": 333,
         "level": 5,
         "school": "Trans",
         "castingTime": "Act",
@@ -7966,6 +8298,7 @@ export const SPELLLIST =
     },
     {
         "name": "Planar Binding",
+        "id": 334,
         "level": 5,
         "school": "Abjur",
         "castingTime": "1 Hr",
@@ -7991,6 +8324,7 @@ export const SPELLLIST =
     },
     {
         "name": "Raise Dead",
+        "id": 335,
         "level": 5,
         "school": "Necro",
         "castingTime": "1 Hr",
@@ -8015,6 +8349,7 @@ export const SPELLLIST =
     },
     {
         "name": "Rary's Telepathic Bond",
+        "id": 336,
         "level": 5,
         "school": "Divin",
         "castingTime": "Act",
@@ -8039,6 +8374,7 @@ export const SPELLLIST =
     },
     {
         "name": "Reincarnate",
+        "id": 337,
         "level": 5,
         "school": "Trans",
         "castingTime": "1 Hour",
@@ -8063,6 +8399,7 @@ export const SPELLLIST =
     },
     {
         "name": "Scrying",
+        "id": 338,
         "level": 5,
         "school": "Divin",
         "castingTime": "10 min",
@@ -8089,6 +8426,7 @@ export const SPELLLIST =
     },
     {
         "name": "Seeming",
+        "id": 339,
         "level": 5,
         "school": "Illus",
         "castingTime": "Act",
@@ -8111,6 +8449,7 @@ export const SPELLLIST =
     },
     {
         "name": "Skill Empowerment",
+        "id": 340,
         "level": 5,
         "school": "Trans",
         "castingTime": "Act",
@@ -8135,6 +8474,7 @@ export const SPELLLIST =
     },
     {
         "name": "Steel Wind Strike",
+        "id": 341,
         "level": 5,
         "school": "Conj",
         "castingTime": "Act",
@@ -8160,6 +8500,7 @@ export const SPELLLIST =
     },
     {
         "name": "Swift Quiver",
+        "id": 342,
         "level": 5,
         "school": "Trans",
         "castingTime": "Bonus",
@@ -8183,6 +8524,7 @@ export const SPELLLIST =
     },
     {
         "name": "Synaptic Static",
+        "id": 343,
         "level": 5,
         "school": "Ench",
         "castingTime": "Act",
@@ -8207,6 +8549,7 @@ export const SPELLLIST =
     },
     {
         "name": "Telekinesis",
+        "id": 344,
         "level": 5,
         "school": "Trans",
         "castingTime": "Act",
@@ -8232,6 +8575,7 @@ export const SPELLLIST =
     },
     {
         "name": "Teleportation Circle",
+        "id": 345,
         "level": 5,
         "school": "Conj",
         "castingTime": "1 Minute",
@@ -8256,6 +8600,7 @@ export const SPELLLIST =
     },
     {
         "name": "Transmute Rock",
+        "id": 346,
         "level": 5,
         "school": "Trans",
         "castingTime": "Act",
@@ -8279,6 +8624,7 @@ export const SPELLLIST =
     },
     {
         "name": "Tree Stride",
+        "id": 347,
         "level": 5,
         "school": "Conj",
         "castingTime": "Act",
@@ -8302,6 +8648,7 @@ export const SPELLLIST =
     },
     {
         "name": "Wall of Force",
+        "id": 348,
         "level": 5,
         "school": "Evoc",
         "castingTime": "Act",
@@ -8325,6 +8672,7 @@ export const SPELLLIST =
     },
     {
         "name": "Wall of Light",
+        "id": 349,
         "level": 5,
         "school": "Evoc",
         "castingTime": "Act",
@@ -8350,6 +8698,7 @@ export const SPELLLIST =
     },
     {
         "name": "Wall Of Stone",
+        "id": 350,
         "level": 5,
         "school": "Evoc",
         "castingTime": "Act",
@@ -8375,6 +8724,7 @@ export const SPELLLIST =
     },
     {
         "name": "Wrath of Nature",
+        "id": 351,
         "level": 5,
         "school": "Evoc",
         "castingTime": "Act",
@@ -8400,6 +8750,7 @@ export const SPELLLIST =
     },
     {
         "name": "Arcane Gate",
+        "id": 352,
         "level": 6,
         "school": "Conj",
         "castingTime": "Act",
@@ -8423,6 +8774,7 @@ export const SPELLLIST =
     },
     {
         "name": "Blade Barrier",
+        "id": 353,
         "level": 6,
         "school": "Evoc",
         "castingTime": "Act",
@@ -8448,6 +8800,7 @@ export const SPELLLIST =
     },
     {
         "name": "Bones of the Earth",
+        "id": 354,
         "level": 6,
         "school": "Trans",
         "castingTime": "Act",
@@ -8472,6 +8825,7 @@ export const SPELLLIST =
     },
     {
         "name": "Chain Lightning",
+        "id": 355,
         "level": 6,
         "school": "Evoc",
         "castingTime": "Act",
@@ -8496,6 +8850,7 @@ export const SPELLLIST =
     },
     {
         "name": "Circle of Death",
+        "id": 356,
         "level": 6,
         "school": "Necro",
         "castingTime": "Act",
@@ -8521,6 +8876,7 @@ export const SPELLLIST =
     },
     {
         "name": "Conjure Fey",
+        "id": 357,
         "level": 6,
         "school": "Conj",
         "castingTime": "1 min",
@@ -8544,6 +8900,7 @@ export const SPELLLIST =
     },
     {
         "name": "Contingency",
+        "id": 358,
         "level": 6,
         "school": "Evoc",
         "castingTime": "10 min",
@@ -8567,6 +8924,7 @@ export const SPELLLIST =
     },
     {
         "name": "Create Homunculus",
+        "id": 359,
         "level": 6,
         "school": "Trans",
         "castingTime": "1 Hr",
@@ -8590,6 +8948,7 @@ export const SPELLLIST =
     },
     {
         "name": "Create Undead",
+        "id": 360,
         "level": 6,
         "school": "Necro",
         "castingTime": "1 MIn",
@@ -8614,6 +8973,7 @@ export const SPELLLIST =
     },
     {
         "name": "Disintegrate",
+        "id": 361,
         "level": 6,
         "school": "Trans",
         "castingTime": "Act",
@@ -8638,6 +8998,7 @@ export const SPELLLIST =
     },
     {
         "name": "Drawmij's Instant Summons",
+        "id": 362,
         "level": 6,
         "school": "Conj",
         "castingTime": "1 Min",
@@ -8663,6 +9024,7 @@ export const SPELLLIST =
     },
     {
         "name": "Druid Grove",
+        "id": 363,
         "level": 6,
         "school": "Abjur",
         "castingTime": "10 Min",
@@ -8687,6 +9049,7 @@ export const SPELLLIST =
     },
     {
         "name": "Eyebite",
+        "id": 364,
         "level": 6,
         "school": "Necro",
         "castingTime": "Act",
@@ -8711,6 +9074,7 @@ export const SPELLLIST =
     },
     {
         "name": "Find The Path",
+        "id": 365,
         "level": 6,
         "school": "Divin",
         "castingTime": "1 Min",
@@ -8736,6 +9100,7 @@ export const SPELLLIST =
     },
     {
         "name": "Flesh to Stone",
+        "id": 366,
         "level": 6,
         "school": "Trans",
         "castingTime": "Act",
@@ -8761,6 +9126,7 @@ export const SPELLLIST =
     },
     {
         "name": "Forbiddance",
+        "id": 367,
         "level": 6,
         "school": "Abjur",
         "castingTime": "10 Min",
@@ -8786,6 +9152,7 @@ export const SPELLLIST =
     },
     {
         "name": "Globe Of Invulnerability",
+        "id": 368,
         "level": 6,
         "school": "Abjur",
         "castingTime": "Act",
@@ -8810,6 +9177,7 @@ export const SPELLLIST =
     },
     {
         "name": "Guards and Wards",
+        "id": 369,
         "level": 6,
         "school": "Abjur",
         "castingTime": "10 Minutes",
@@ -8833,6 +9201,7 @@ export const SPELLLIST =
     },
     {
         "name": "Harm",
+        "id": 370,
         "level": 6,
         "school": "Necro",
         "castingTime": "Act",
@@ -8857,6 +9226,7 @@ export const SPELLLIST =
     },
     {
         "name": "Heal",
+        "id": 371,
         "level": 6,
         "school": "Evoc",
         "castingTime": "Act",
@@ -8880,6 +9250,7 @@ export const SPELLLIST =
     },
     {
         "name": "Heroes' Feast",
+        "id": 372,
         "level": 6,
         "school": "Conj",
         "castingTime": "10 Min",
@@ -8904,6 +9275,7 @@ export const SPELLLIST =
     },
     {
         "name": "Investiture of Flame",
+        "id": 373,
         "level": 6,
         "school": "Trans",
         "castingTime": "Act",
@@ -8929,6 +9301,7 @@ export const SPELLLIST =
     },
     {
         "name": "Investiture of Ice",
+        "id": 374,
         "level": 6,
         "school": "Trans",
         "castingTime": "Act",
@@ -8954,6 +9327,7 @@ export const SPELLLIST =
     },
     {
         "name": "Investiture of Stone",
+        "id": 375,
         "level": 6,
         "school": "Trans",
         "castingTime": "Act",
@@ -8979,6 +9353,7 @@ export const SPELLLIST =
     },
     {
         "name": "Investiture of Wind",
+        "id": 376,
         "level": 6,
         "school": "Trans",
         "castingTime": "Act",
@@ -9004,6 +9379,7 @@ export const SPELLLIST =
     },
     {
         "name": "Magic Jar",
+        "id": 377,
         "level": 6,
         "school": "Necro",
         "castingTime": "1 Min",
@@ -9027,6 +9403,7 @@ export const SPELLLIST =
     },
     {
         "name": "Mass Suggestion",
+        "id": 378,
         "level": 6,
         "school": "Ench",
         "castingTime": "Act",
@@ -9051,6 +9428,7 @@ export const SPELLLIST =
     },
     {
         "name": "Mental Prison",
+        "id": 379,
         "level": 6,
         "school": "Illus",
         "castingTime": "Act",
@@ -9076,6 +9454,7 @@ export const SPELLLIST =
     },
     {
         "name": "Move Earth",
+        "id": 380,
         "level": 6,
         "school": "Trans",
         "castingTime": "Act",
@@ -9100,6 +9479,7 @@ export const SPELLLIST =
     },
     {
         "name": "Otiluke's Freezing Sphere",
+        "id": 381,
         "level": 6,
         "school": "Evoc",
         "castingTime": "Act",
@@ -9124,6 +9504,7 @@ export const SPELLLIST =
     },
     {
         "name": "Otto's Irresistible Dance",
+        "id": 382,
         "level": 6,
         "school": "Ench",
         "castingTime": "Act",
@@ -9149,6 +9530,7 @@ export const SPELLLIST =
     },
     {
         "name": "Planar Ally",
+        "id": 383,
         "level": 6,
         "school": "Conj",
         "castingTime": "10 min",
@@ -9170,6 +9552,7 @@ export const SPELLLIST =
     },
     {
         "name": "Primordial Ward",
+        "id": 384,
         "level": 6,
         "school": "Abjur",
         "castingTime": "Act",
@@ -9194,6 +9577,7 @@ export const SPELLLIST =
     },
     {
         "name": "Programmed Illusion",
+        "id": 385,
         "level": 6,
         "school": "Illus",
         "castingTime": "Act",
@@ -9218,6 +9602,7 @@ export const SPELLLIST =
     },
     {
         "name": "Scatter",
+        "id": 386,
         "level": 6,
         "school": "Conj",
         "castingTime": "Act",
@@ -9242,6 +9627,7 @@ export const SPELLLIST =
     },
     {
         "name": "Soul Cage",
+        "id": 387,
         "level": 6,
         "school": "Necro",
         "castingTime": "Reaction",
@@ -9266,6 +9652,7 @@ export const SPELLLIST =
     },
     {
         "name": "Sunbeam",
+        "id": 388,
         "level": 6,
         "school": "Evoc",
         "castingTime": "Act",
@@ -9291,6 +9678,7 @@ export const SPELLLIST =
     },
     {
         "name": "Tenser's Transformation",
+        "id": 389,
         "level": 6,
         "school": "Trans",
         "castingTime": "Act",
@@ -9315,6 +9703,7 @@ export const SPELLLIST =
     },
     {
         "name": "Transport via Plants",
+        "id": 390,
         "level": 6,
         "school": "Conj",
         "castingTime": "Act",
@@ -9338,6 +9727,7 @@ export const SPELLLIST =
     },
     {
         "name": "True Seeing",
+        "id": 391,
         "level": 6,
         "school": "Divin",
         "castingTime": "Act",
@@ -9362,6 +9752,7 @@ export const SPELLLIST =
     },
     {
         "name": "Wall of Ice",
+        "id": 392,
         "level": 6,
         "school": "Evoc",
         "castingTime": "Act",
@@ -9387,6 +9778,7 @@ export const SPELLLIST =
     },
     {
         "name": "Wall of Thorns",
+        "id": 393,
         "level": 6,
         "school": "Conj",
         "castingTime": "Act",
@@ -9412,6 +9804,7 @@ export const SPELLLIST =
     },
     {
         "name": "Wind Walk",
+        "id": 394,
         "level": 6,
         "school": "Trans",
         "castingTime": "1 minute",
@@ -9435,6 +9828,7 @@ export const SPELLLIST =
     },
     {
         "name": "Word of Recall",
+        "id": 395,
         "level": 6,
         "school": "Conj",
         "castingTime": "Act",
@@ -9456,6 +9850,7 @@ export const SPELLLIST =
     },
     {
         "name": "Conjure Celestial",
+        "id": 396,
         "level": 7,
         "school": "Conj",
         "castingTime": "1 Minute",
@@ -9479,6 +9874,7 @@ export const SPELLLIST =
     },
     {
         "name": "Crown of Stars",
+        "id": 397,
         "level": 7,
         "school": "Evoc",
         "castingTime": "Act",
@@ -9501,6 +9897,7 @@ export const SPELLLIST =
     },
     {
         "name": "Delayed Blast Fireball",
+        "id": 398,
         "level": 7,
         "school": "Evoc",
         "castingTime": "Act",
@@ -9526,6 +9923,7 @@ export const SPELLLIST =
     },
     {
         "name": "Divine Word",
+        "id": 399,
         "level": 7,
         "school": "Evoc",
         "castingTime": "Bonus",
@@ -9550,6 +9948,7 @@ export const SPELLLIST =
     },
     {
         "name": "Etherealness",
+        "id": 400,
         "level": 7,
         "school": "Trans",
         "castingTime": "Act",
@@ -9573,6 +9972,7 @@ export const SPELLLIST =
     },
     {
         "name": "Finger Of Death",
+        "id": 401,
         "level": 7,
         "school": "Necro",
         "castingTime": "Act",
@@ -9597,6 +9997,7 @@ export const SPELLLIST =
     },
     {
         "name": "Fire Storm",
+        "id": 402,
         "level": 7,
         "school": "Evoc",
         "castingTime": "Act",
@@ -9621,6 +10022,7 @@ export const SPELLLIST =
     },
     {
         "name": "Forcecage",
+        "id": 403,
         "level": 7,
         "school": "Evoc",
         "castingTime": "Act",
@@ -9646,6 +10048,7 @@ export const SPELLLIST =
     },
     {
         "name": "Mirage Arcane",
+        "id": 404,
         "level": 7,
         "school": "Illus",
         "castingTime": "10 Minutes",
@@ -9669,6 +10072,7 @@ export const SPELLLIST =
     },
     {
         "name": "Mordenkainen's Magnificent Mansion",
+        "id": 405,
         "level": 7,
         "school": "Conj",
         "castingTime": "1 Minute",
@@ -9693,6 +10097,7 @@ export const SPELLLIST =
     },
     {
         "name": "Mordenkainen's Sword",
+        "id": 406,
         "level": 7,
         "school": "Evoc",
         "castingTime": "Act",
@@ -9719,6 +10124,7 @@ export const SPELLLIST =
     },
     {
         "name": "Plane Shift",
+        "id": 407,
         "level": 7,
         "school": "Conj",
         "castingTime": "Act",
@@ -9744,6 +10150,7 @@ export const SPELLLIST =
     },
     {
         "name": "Power Word: Pain",
+        "id": 408,
         "level": 7,
         "school": "Ench",
         "castingTime": "Act",
@@ -9768,6 +10175,7 @@ export const SPELLLIST =
     },
     {
         "name": "Prismatic Spray",
+        "id": 409,
         "level": 7,
         "school": "Evoc",
         "castingTime": "Act",
@@ -9792,6 +10200,7 @@ export const SPELLLIST =
     },
     {
         "name": "Project Image",
+        "id": 410,
         "level": 7,
         "school": "Illus",
         "castingTime": "Act",
@@ -9817,6 +10226,7 @@ export const SPELLLIST =
     },
     {
         "name": "Regenerate",
+        "id": 411,
         "level": 7,
         "school": "Trans",
         "castingTime": "1 Min",
@@ -9840,6 +10250,7 @@ export const SPELLLIST =
     },
     {
         "name": "Resurrection",
+        "id": 412,
         "level": 7,
         "school": "Necro",
         "castingTime": "1 Hr",
@@ -9864,6 +10275,7 @@ export const SPELLLIST =
     },
     {
         "name": "Reverse Gravity",
+        "id": 413,
         "level": 7,
         "school": "Trans",
         "castingTime": "Act",
@@ -9889,6 +10301,7 @@ export const SPELLLIST =
     },
     {
         "name": "Sequester",
+        "id": 414,
         "level": 7,
         "school": "Trans",
         "castingTime": "Act",
@@ -9913,6 +10326,7 @@ export const SPELLLIST =
     },
     {
         "name": "Simulacrum",
+        "id": 415,
         "level": 7,
         "school": "Illus",
         "castingTime": "12 Hours",
@@ -9937,6 +10351,7 @@ export const SPELLLIST =
     },
     {
         "name": "Symbol",
+        "id": 416,
         "level": 7,
         "school": "Abjur",
         "castingTime": "1 Min",
@@ -9961,6 +10376,7 @@ export const SPELLLIST =
     },
     {
         "name": "Teleport",
+        "id": 417,
         "level": 7,
         "school": "Conj",
         "castingTime": "Act",
@@ -9984,6 +10400,7 @@ export const SPELLLIST =
     },
     {
         "name": "Temple of the Gods",
+        "id": 418,
         "level": 7,
         "school": "Conj",
         "castingTime": "1 Hr",
@@ -10008,6 +10425,7 @@ export const SPELLLIST =
     },
     {
         "name": "Whirlwind",
+        "id": 419,
         "level": 7,
         "school": "Evoc",
         "castingTime": "Act",
@@ -10032,6 +10450,7 @@ export const SPELLLIST =
     },
     {
         "name": "Abi-Dalzim's Horrid Wilting",
+        "id": 420,
         "level": 8,
         "school": "Necro",
         "castingTime": "Act",
@@ -10056,6 +10475,7 @@ export const SPELLLIST =
     },
     {
         "name": "Animal Shapes",
+        "id": 421,
         "level": 8,
         "school": "Trans",
         "castingTime": "Act",
@@ -10080,6 +10500,7 @@ export const SPELLLIST =
     },
     {
         "name": "Antimagic Field",
+        "id": 422,
         "level": 8,
         "school": "Abjur",
         "castingTime": "Act",
@@ -10104,6 +10525,7 @@ export const SPELLLIST =
     },
     {
         "name": "Antipathy/Sympathy",
+        "id": 423,
         "level": 8,
         "school": "Ench",
         "castingTime": "1 hour",
@@ -10128,6 +10550,7 @@ export const SPELLLIST =
     },
     {
         "name": "Clone",
+        "id": 424,
         "level": 8,
         "school": "Necro",
         "castingTime": "1 hour",
@@ -10151,6 +10574,7 @@ export const SPELLLIST =
     },
     {
         "name": "Control Weather",
+        "id": 425,
         "level": 8,
         "school": "Trans",
         "castingTime": "10 min",
@@ -10175,6 +10599,7 @@ export const SPELLLIST =
     },
     {
         "name": "Demiplane",
+        "id": 426,
         "level": 8,
         "school": "Conj",
         "castingTime": "Act",
@@ -10198,6 +10623,7 @@ export const SPELLLIST =
     },
     {
         "name": "Dominate Monster",
+        "id": 427,
         "level": 8,
         "school": "Ench",
         "castingTime": "Act",
@@ -10223,6 +10649,7 @@ export const SPELLLIST =
     },
     {
         "name": "Earthquake",
+        "id": 428,
         "level": 8,
         "school": "Evoc",
         "castingTime": "Act",
@@ -10248,6 +10675,7 @@ export const SPELLLIST =
     },
     {
         "name": "Feeblemind",
+        "id": 429,
         "level": 8,
         "school": "Ench",
         "castingTime": "Act",
@@ -10272,6 +10700,7 @@ export const SPELLLIST =
     },
     {
         "name": "Glibness",
+        "id": 430,
         "level": 8,
         "school": "Trans",
         "castingTime": "Act",
@@ -10295,6 +10724,7 @@ export const SPELLLIST =
     },
     {
         "name": "Holy Aura",
+        "id": 431,
         "level": 8,
         "school": "Abjur",
         "castingTime": "Act",
@@ -10321,6 +10751,7 @@ export const SPELLLIST =
     },
     {
         "name": "Illusory Dragon",
+        "id": 432,
         "level": 8,
         "school": "Illus",
         "castingTime": "Action",
@@ -10346,6 +10777,7 @@ export const SPELLLIST =
     },
     {
         "name": "Incendiary Cloud",
+        "id": 433,
         "level": 8,
         "school": "Conj",
         "castingTime": "Act",
@@ -10371,6 +10803,7 @@ export const SPELLLIST =
     },
     {
         "name": "Maddening Darkness",
+        "id": 434,
         "level": 8,
         "school": "Evoc",
         "castingTime": "Action",
@@ -10396,6 +10829,7 @@ export const SPELLLIST =
     },
     {
         "name": "Maze",
+        "id": 435,
         "level": 8,
         "school": "Conj",
         "castingTime": "Act",
@@ -10420,6 +10854,7 @@ export const SPELLLIST =
     },
     {
         "name": "Mighty Fortress",
+        "id": 436,
         "level": 8,
         "school": "Conj",
         "castingTime": "1 Min",
@@ -10444,6 +10879,7 @@ export const SPELLLIST =
     },
     {
         "name": "Mind Blank",
+        "id": 437,
         "level": 8,
         "school": "Abjur",
         "castingTime": "Act",
@@ -10467,6 +10903,7 @@ export const SPELLLIST =
     },
     {
         "name": "Power Word Stun",
+        "id": 438,
         "level": 8,
         "school": "Ench",
         "castingTime": "Act",
@@ -10491,6 +10928,7 @@ export const SPELLLIST =
     },
     {
         "name": "Sunburst",
+        "id": 439,
         "level": 8,
         "school": "Evoc",
         "castingTime": "Act",
@@ -10514,6 +10952,7 @@ export const SPELLLIST =
     },
     {
         "name": "Telepathy",
+        "id": 440,
         "level": 8,
         "school": "Evoc",
         "castingTime": "Act",
@@ -10537,6 +10976,7 @@ export const SPELLLIST =
     },
     {
         "name": "Tsunami",
+        "id": 441,
         "level": 8,
         "school": "Conj",
         "castingTime": "1 Min",
@@ -10562,6 +11002,7 @@ export const SPELLLIST =
     },
     {
         "name": "Astral Projection",
+        "id": 442,
         "level": 9,
         "school": "Necro",
         "castingTime": "1 Hr",
@@ -10586,6 +11027,7 @@ export const SPELLLIST =
     },
     {
         "name": "Foresight",
+        "id": 443,
         "level": 9,
         "school": "Divin",
         "castingTime": "1 Min",
@@ -10609,6 +11051,7 @@ export const SPELLLIST =
     },
     {
         "name": "Gate",
+        "id": 444,
         "level": 9,
         "school": "Conj",
         "castingTime": "Act",
@@ -10634,6 +11077,7 @@ export const SPELLLIST =
     },
     {
         "name": "Imprisonment",
+        "id": 445,
         "level": 9,
         "school": "Abjur",
         "castingTime": "1 Min",
@@ -10659,6 +11103,7 @@ export const SPELLLIST =
     },
     {
         "name": "Invulnerability",
+        "id": 446,
         "level": 9,
         "school": "Abjur",
         "castingTime": "Action",
@@ -10683,6 +11128,7 @@ export const SPELLLIST =
     },
     {
         "name": "Mass Heal",
+        "id": 447,
         "level": 9,
         "school": "Conj",
         "castingTime": "Act",
@@ -10706,6 +11152,7 @@ export const SPELLLIST =
     },
     {
         "name": "Mass Polymorph",
+        "id": 448,
         "level": 9,
         "school": "Trans",
         "castingTime": "Action",
@@ -10731,6 +11178,7 @@ export const SPELLLIST =
     },
     {
         "name": "Meteor Swarm",
+        "id": 449,
         "level": 9,
         "school": "Evoc",
         "castingTime": "Act",
@@ -10755,6 +11203,7 @@ export const SPELLLIST =
     },
     {
         "name": "Power Word Heal",
+        "id": 450,
         "level": 9,
         "school": "Evoc",
         "castingTime": "Act",
@@ -10778,6 +11227,7 @@ export const SPELLLIST =
     },
     {
         "name": "Power Word Kill",
+        "id": 451,
         "level": 9,
         "school": "Ench",
         "castingTime": "Act",
@@ -10801,6 +11251,7 @@ export const SPELLLIST =
     },
     {
         "name": "Prismatic Wall",
+        "id": 452,
         "level": 9,
         "school": "Abjur",
         "castingTime": "Act",
@@ -10825,6 +11276,7 @@ export const SPELLLIST =
     },
     {
         "name": "Psychic Scream",
+        "id": 453,
         "level": 9,
         "school": "Ench",
         "castingTime": "Action",
@@ -10849,6 +11301,7 @@ export const SPELLLIST =
     },
     {
         "name": "Shapechange",
+        "id": 454,
         "level": 9,
         "school": "Trans",
         "castingTime": "Act",
@@ -10874,6 +11327,7 @@ export const SPELLLIST =
     },
     {
         "name": "Storm of Vengeance",
+        "id": 455,
         "level": 9,
         "school": "Conj",
         "castingTime": "Act",
@@ -10899,6 +11353,7 @@ export const SPELLLIST =
     },
     {
         "name": "Time Stop",
+        "id": 456,
         "level": 9,
         "school": "Trans",
         "castingTime": "Act",
@@ -10922,6 +11377,7 @@ export const SPELLLIST =
     },
     {
         "name": "True Polymorph",
+        "id": 457,
         "level": 9,
         "school": "Trans",
         "castingTime": "Act",
@@ -10947,6 +11403,7 @@ export const SPELLLIST =
     },
     {
         "name": "True Resurrection",
+        "id": 458,
         "level": 9,
         "school": "Necro",
         "castingTime": "1 Hr",
@@ -10971,6 +11428,7 @@ export const SPELLLIST =
     },
     {
         "name": "Weird",
+        "id": 459,
         "level": 9,
         "school": "Illus",
         "castingTime": "Act",
@@ -10996,6 +11454,7 @@ export const SPELLLIST =
     },
     {
         "name": "Wish",
+        "id": 460,
         "level": 9,
         "school": "Conj",
         "castingTime": "Act",

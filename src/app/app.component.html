@@ -3,8 +3,8 @@
     <ion-menu contentId="main-content" type="overlay">
       <ion-content>
         <ion-list id="side-menu-list">
-          <ion-list-header>Menu</ion-list-header>
-          <ion-note>Oh the choices</ion-note>
+          <ion-list-header>Choices, Choices, Choices...</ion-list-header>
+          <ion-note>What should I choose?</ion-note>
 
           <ion-menu-toggle auto-hide="false" *ngFor="let p of appPages; let i = index">
             <ion-item (click)="selectedIndex = i" routerDirection="root" [routerLink]="[p.url]" lines="none" detail="false" [class.selected]="selectedIndex == i">
