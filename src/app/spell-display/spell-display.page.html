@@ -4,33 +4,42 @@
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
     <ion-title>{{ spell.name }}</ion-title>
+    <ion-icon  *ngIf="favorited" src="/assets/heart.svg" class='iconSize' (click)="updateFavorite()" slot="end"></ion-icon>
+    <ion-icon *ngIf="!favorited" src="/assets/heart-outline.svg" class='iconSize' (click)="updateFavorite()" slot="end"></ion-icon>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">{{ spell.name }}</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
   <div id="container">
-    <app-headerText>Spell Level:</app-headerText>  <app-importText>{{spell.level}}</app-importText>
-    <app-headerText>Requirements: </app-headerText> <app-importText>{{spell.mats}}</app-importText>
-    <app-headerText *ngIf="spell.cost">Cost: </app-headerText> <app-importText *ngIf='spell.cost'>{{spell.cost}}</app-importText>
-    <app-headerText>School of Magic: </app-headerText> <app-importText>{{spell.school}}</app-importText>
-    <app-headerText>Casting Time: </app-headerText> <app-importText>{{spell.castingTime}}</app-importText>
-    <app-headerText>Range: </app-headerText> <app-importText>{{spell.range}}</app-importText>
-    <app-headerText>Area or Targets: </app-headerText> <app-importText>{{spell.areaOrTargets}}</app-importText>
-    <app-headerText>Duration: </app-headerText> <app-importText>{{spell.duration}}</app-importText>
-    <app-headerText>Effect: </app-headerText> <app-importText>{{spell.effect}}</app-importText>
+    <app-headerText>Spell Level:</app-headerText>
+    <app-importText>{{spell.level}}</app-importText>
+    <app-headerText>Requirements: </app-headerText>
+    <app-importText>{{spell.mats}}</app-importText>
+    <app-headerText *ngIf="spell.cost">Cost: </app-headerText>
+    <app-importText *ngIf='spell.cost'>{{spell.cost}}</app-importText>
+    <app-headerText>School of Magic: </app-headerText>
+    <app-importText>{{spell.school}}</app-importText>
+    <app-headerText>Casting Time: </app-headerText>
+    <app-importText>{{spell.castingTime}}</app-importText>
+    <app-headerText>Range: </app-headerText>
+    <app-importText>{{spell.range}}</app-importText>
+    <app-headerText>Area or Targets: </app-headerText>
+    <app-importText>{{spell.areaOrTargets}}</app-importText>
+    <app-headerText>Duration: </app-headerText>
+    <app-importText>{{spell.duration}}</app-importText>
+    <app-headerText>Effect: </app-headerText>
+    <app-importText>{{spell.effect}}</app-importText>
+    <!-- <app-headerText>Favorited: </app-headerText>
+    <app-importText>{{favorited}}</app-importText> -->
+
   </div>
 
   <div id="customFooter">
-    <div id=inlined>    <ion-button [routerLink]="['/folder/Spells']" [routerDirection]="back">
-      Return to Spell List
-    </ion-button>
-  </div>
+    <div id=inlined>
+      <ion-button [routerLink]="['/folder/Spells']" [routerDirection]="back">
+        Return to Spell List
+      </ion-button>
+    </div>
 
   </div>
 </ion-content>

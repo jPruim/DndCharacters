@@ -1,0 +1,36 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Favorite Spells</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Favorite Spells</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-searchbar enterkeyhing="search" inputmode="search" (ionInput)="filterList($event)"> </ion-searchbar>
+  <div *ngIf="!retrieved">
+    <ion-note>Loading Spells</ion-note>
+  </div>
+  <div *ngIf="retrieved">
+    <div *ngIf="spellList===null||spellList.length===0">
+      <ion-note>You have no favorite spells. Find Favorite spells in the Spell List</ion-note>
+    </div>
+    <ion-virtual-scroll [items]="spellList" lines="full">
+      <ion-item *virtualItem="let spell" button='true' (click)="spellDestination=spell" routerDirection="forward"
+        [routerLink]="'spell-display/'+spell.id">
+        <ion-label class="ion-text-wrap">
+          <ion-text>{{spell.name}}</ion-text>
+          <!-- <ion-text>Spell is {{spell}}</ion-text> -->
+        </ion-label>
+        <ion-note slot="end"> {{spell.mats}}</ion-note>
+        <ion-note slot="end">lvl {{spell.level}}</ion-note>
+      </ion-item>
+    </ion-virtual-scroll>
+  </div>
+</ion-content>
