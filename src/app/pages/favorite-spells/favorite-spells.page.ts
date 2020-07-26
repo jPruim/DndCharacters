@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Storage } from '@ionic/storage'
 import { SPELLLIST } from 'src/assets/spellList';
+import { IonicStorageService } from 'src/app/services/ionic-storage.service';
 @Component({
   selector: 'app-favorite-spells',
   templateUrl: './favorite-spells.page.html',
@@ -10,7 +10,7 @@ export class FavoriteSpellsPage implements OnInit {
   spellList = [];
   favoriteList = [];
   retrieved: boolean;
-  constructor(private storage: Storage) { }
+  constructor(private storageService: IonicStorageService) { }
   public spellDestination: string;
 
   filterList(event) {
@@ -27,7 +27,7 @@ export class FavoriteSpellsPage implements OnInit {
   }
   ngOnInit() {
     this.retrieved = false;
-    this.storage.get('favoriteSpells').then((list) => {
+    this.storageService.getFavoriteSpellList().then((list) => {
       // console.log("saved spell values",list)
       for(var i in list){
         // console.log("the value of i ", i,  typeof(i));

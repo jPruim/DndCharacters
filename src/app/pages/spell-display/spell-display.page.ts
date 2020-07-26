@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { SPELLLIST } from 'src/assets/spellList';
-import { Storage } from '@ionic/storage'
 import { Observable, BehaviorSubject } from 'rxjs';
 import { Spell } from 'src/app/interfaces/spell';
+import { IonicStorageService } from 'src/app/services/ionic-storage.service';
 
 @Component({
   selector: 'app-spell-display',
@@ -19,7 +19,7 @@ export class SpellDisplayPage implements OnInit {
   private initialized = false;
   public favorited: boolean; //inclass boolean value
   private favorited$: BehaviorSubject<boolean>; //value for others to subscribe to
-  constructor(private activatedRoute: ActivatedRoute, private storage: Storage) { }
+  constructor(private activatedRoute: ActivatedRoute, private storageService: IonicStorageService) { }
 
   ngOnInit() {
     this.spellID = parseInt(this.activatedRoute.snapshot.paramMap.get('id'));
@@ -28,7 +28,7 @@ export class SpellDisplayPage implements OnInit {
     this.spell = SPELLLIST.find((sp) => { return sp.id === this.spellID; });
     // console.log(this.spell);
     // console.log(this.spell.name)
-    this.storage.get('favoriteSpells').then((list) => {
+    this.storageService.getFavoriteSpellList().then((list) => {
       this.favoriteList = list;
       if (list === null || list.indexOf(this.spellID) === -1) {
         this.favorited =false;
@@ -61,12 +61,12 @@ export class SpellDisplayPage implements OnInit {
     if (this.favorited) {
       this.favoriteList = this.favoriteList.filter((id) => id !== this.spellID);
       console.log("removed spell, favorite list is now: ", this.favoriteList)
-      this.storage.set('favoriteSpells', this.favoriteList);
+      this.storageService.setFavoriteSpellList(this.favoriteList);
     } else {
       this.favoriteList.push(this.spellID);
       this.favoriteList.sort();
       console.log("added spell, favorite list is now: ", this.favoriteList)
-      this.storage.set('favoriteSpells', this.favoriteList);
+      this.storageService.setFavoriteSpellList(this.favoriteList);
     }
   }
 
