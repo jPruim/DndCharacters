@@ -7,6 +7,10 @@ import { IonicModule } from '@ionic/angular';
 import { SpellDisplayPageRoutingModule } from './spell-display-routing.module';
 
 import { SpellDisplayPage } from './spell-display.page';
+import { SpellListComponent } from 'src/app/components/spell-list/spell-list.component';
+import { CustomHeaderComponent } from 'src/app/components/custom-header/custom-header.component';
+
+
 
 @NgModule({
   imports: [
@@ -15,7 +19,7 @@ import { SpellDisplayPage } from './spell-display.page';
     IonicModule,
     SpellDisplayPageRoutingModule
   ],
-  declarations: [SpellDisplayPage],
+  declarations: [SpellDisplayPage,SpellListComponent,CustomHeaderComponent],
   schemas:[CUSTOM_ELEMENTS_SCHEMA]
 })
 export class SpellDisplayPageModule {}

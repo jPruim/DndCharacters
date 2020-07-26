@@ -8,6 +8,11 @@ import { FavoriteSpellsPageRoutingModule } from './favorite-spells-routing.modul
 
 import { FavoriteSpellsPage } from './favorite-spells.page';
 
+
+import { SpellListComponent} from 'src/app/components/spell-list/spell-list.component';
+import { CustomHeaderComponent} from 'src/app/components/custom-header/custom-header.component';
+
+
 @NgModule({
   imports: [
     CommonModule,
@@ -15,6 +20,6 @@ import { FavoriteSpellsPage } from './favorite-spells.page';
     IonicModule,
     FavoriteSpellsPageRoutingModule
   ],
-  declarations: [FavoriteSpellsPage]
+  declarations: [FavoriteSpellsPage,SpellListComponent,CustomHeaderComponent]
 })
 export class FavoriteSpellsPageModule {}

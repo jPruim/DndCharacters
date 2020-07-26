@@ -1,0 +1,12 @@
+
+<ion-virtual-scroll [items]="spellList" lines="full">
+  <ion-item *virtualItem="let spell" button='true' (click)="spellDestination=spell" routerDirection="forward"
+    [routerLink]="'spell-display/'+spell.id">
+    <ion-label class="ion-text-wrap">
+      <ion-text>{{spell.name}}</ion-text>
+      <!-- <ion-text>Spell is {{spell}}</ion-text> -->
+    </ion-label>
+    <ion-note slot="end"> {{spell.mats}}</ion-note>
+    <ion-note slot="end">lvl {{spell.level}}</ion-note>
+  </ion-item>
+</ion-virtual-scroll>

@@ -8,6 +8,10 @@ import { SpellsPageRoutingModule } from './spells-routing.module';
 
 import { SpellsPage } from './spells.page';
 
+import { SpellListComponent} from 'src/app/components/spell-list/spell-list.component';
+import { CustomHeaderComponent} from 'src/app/components/custom-header/custom-header.component';
+
+
 @NgModule({
   imports: [
     CommonModule,
@@ -15,6 +19,6 @@ import { SpellsPage } from './spells.page';
     IonicModule,
     SpellsPageRoutingModule
   ],
-  declarations: [SpellsPage]
+  declarations: [SpellsPage,SpellListComponent, CustomHeaderComponent]
 })
 export class SpellsPageModule {}

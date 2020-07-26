@@ -6,7 +6,7 @@ import { SPELLLIST } from 'src/assets/spellList';
   styleUrls: ['./spells.page.scss'],
 })
 export class SpellsPage implements OnInit {
-  spellList = [];
+  spellList = SPELLLIST;
   constructor() { }
   public spellDestination:string;
 

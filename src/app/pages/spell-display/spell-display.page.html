@@ -1,13 +1,15 @@
-<ion-header [translucent]="true">
+<!-- <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-buttons slot="start">
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
     <ion-title>{{ spell.name }}</ion-title>
-    <ion-icon  *ngIf="favorited" src="/assets/heart.svg" class='iconSize' (click)="updateFavorite()" slot="end"></ion-icon>
-    <ion-icon *ngIf="!favorited" src="/assets/heart-outline.svg" class='iconSize' (click)="updateFavorite()" slot="end"></ion-icon>
+    <ion-icon  *ngIf="favorited" src="/assets/heart.svg" class='iconSize' (click)="updateFavorite$()" slot="end"></ion-icon>
+    <ion-icon *ngIf="!favorited" src="/assets/heart-outline.svg" class='iconSize' (click)="updateFavorite$()" slot="end"></ion-icon>
   </ion-toolbar>
-</ion-header>
+</ion-header> -->
+<app-custom-header [title]="spell.name" favoriting="true" [favorited$]="favorited$" [favorited]="favorited"></app-custom-header>
+
 
 <ion-content [fullscreen]="true">
   <div id="container">
