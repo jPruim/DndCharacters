@@ -4,32 +4,28 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'folder/Inbox',
+    redirectTo: 'Inbox',
     pathMatch: 'full'
   },
   {
     path: 'folder/Spells',
-    loadChildren: () => import('./spells/spells.module').then( m => m.SpellsPageModule)
+    loadChildren: () => import('./pages/spells/spells.module').then( m => m.SpellsPageModule)
   },
   {
-    path: 'folder/Favorite-Spells',
-    loadChildren: () => import('./favorite-spells/favorite-spells.module').then( m => m.FavoriteSpellsPageModule)
+    path: 'Favorite-Spells',
+    loadChildren: () => import('./pages/favorite-spells/favorite-spells.module').then( m => m.FavoriteSpellsPageModule)
   },
   {
-    path: 'folder/:id',
+    path: ':id',
     loadChildren: () => import('./folder/folder.module').then( m => m.FolderPageModule)
   },
   {
-    path: 'folder/Favorite-Spells/spell-display/:id',
-    loadChildren: () => import('./spell-display/spell-display.module').then( m => m.SpellDisplayPageModule)
+    path: 'Favorite-Spells/spell-display/:id',
+    loadChildren: () => import('./pages/spell-display/spell-display.module').then( m => m.SpellDisplayPageModule)
   },
   {
-    path: 'folder/Spells/spell-display/:id',
-    loadChildren: () => import('./spell-display/spell-display.module').then( m => m.SpellDisplayPageModule)
-  },
-  {
-    path: 'favorite-spells',
-    loadChildren: () => import('./favorite-spells/favorite-spells.module').then( m => m.FavoriteSpellsPageModule)
+    path: 'Spells/spell-display/:id',
+    loadChildren: () => import('./pages/spell-display/spell-display.module').then( m => m.SpellDisplayPageModule)
   }
 ];
 
