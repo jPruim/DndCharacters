@@ -9,7 +9,7 @@
   <div *ngIf="retrieved">
     <div *ngIf="spellList===null||spellList.length===0">
       <div id="container">
-        <ion-note>You have no favorite spells. Find Favorite spells in the Spell List</ion-note>
+        <ion-note>You have no favorite spells. Find spells to favorite in the Completed Spell List</ion-note>
       </div>
     </div>
     <ion-virtual-scroll [items]="spellList" lines="full">
