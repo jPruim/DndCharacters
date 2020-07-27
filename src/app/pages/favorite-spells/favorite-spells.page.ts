@@ -26,7 +26,11 @@ export class FavoriteSpellsPage implements OnInit {
     });
   }
   ngOnInit() {
+
+  }
+  ionViewWillEnter(){
     this.retrieved = false;
+    this.favoriteList=[];
     this.storageService.getFavoriteSpellList().then((list) => {
       // console.log("saved spell values",list)
       for(var i in list){

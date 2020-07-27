@@ -26,6 +26,10 @@ const routes: Routes = [
   {
     path: 'folder/Spells/spell-display/:id',
     loadChildren: () => import('./pages/spell-display/spell-display.module').then( m => m.SpellDisplayPageModule)
+  },
+  {
+    path: 'characters',
+    loadChildren: () => import('./pages/characters/characters.module').then( m => m.CharactersPageModule)
   }
 ];
 
