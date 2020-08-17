@@ -7,6 +7,9 @@ import { IonicModule } from '@ionic/angular';
 import { CharactersPageRoutingModule } from './characters-routing.module';
 
 import { CharactersPage } from './characters.page';
+import { CustomHeaderComponent } from 'src/app/components/custom-header/custom-header.component';
+import { CharacterListComponent } from 'src/app/components/character-list/character-list.component';
+
 
 @NgModule({
   imports: [
@@ -15,6 +18,6 @@ import { CharactersPage } from './characters.page';
     IonicModule,
     CharactersPageRoutingModule
   ],
-  declarations: [CharactersPage]
+  declarations: [CharactersPage, CustomHeaderComponent,CharacterListComponent]
 })
 export class CharactersPageModule {}

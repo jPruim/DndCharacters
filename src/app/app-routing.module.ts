@@ -16,6 +16,10 @@ const routes: Routes = [
     loadChildren: () => import('./pages/favorite-spells/favorite-spells.module').then( m => m.FavoriteSpellsPageModule)
   },
   {
+    path: 'folder/Characters',
+    loadChildren: () => import('./pages/characters/characters.module').then( m => m.CharactersPageModule)
+  },
+  {
     path: 'folder/:id',
     loadChildren: () => import('./folder/folder.module').then( m => m.FolderPageModule)
   },

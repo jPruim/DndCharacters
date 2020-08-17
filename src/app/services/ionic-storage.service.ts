@@ -15,4 +15,11 @@ export class IonicStorageService {
   setFavoriteSpellList(spells: Array<Spell>){
     this.storage.set('favoriteSpells', spells);
   }
+
+  async getCharacterList():Promise<any>{
+    return this.storage.get('characters');
+  }
+  setCharacterList(characters: Array<any>){
+    this.storage.set('characters',characters);
+  }
 }

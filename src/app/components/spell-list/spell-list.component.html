@@ -1,4 +1,3 @@
-
 <ion-virtual-scroll [items]="spellList" lines="full">
   <ion-item *virtualItem="let spell" button='true' (click)="spellDestination=spell" routerDirection="forward"
     [routerLink]="'spell-display/'+spell.id">

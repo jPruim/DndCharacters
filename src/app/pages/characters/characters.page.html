@@ -1,9 +1,7 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>characters</ion-title>
-  </ion-toolbar>
-</ion-header>
+<app-custom-header title="Characters" [favoriting]="false"></app-custom-header>>
 
-<ion-content>
-
+<ion-content [fullscreen]="true">
+    
+    <app-character-list *ngIf="characterList" [characterList]="characterList"></app-character-list>
+    <button width="full" (onClick)
 </ion-content>
